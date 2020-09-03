@@ -133,18 +133,18 @@ img::-moz-selection {
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
   color: #FF9900 !important;
-  background-color: #01010c;
+  background-color: #131B2B;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
-  background-color: #01010c;
+  background-color: #131B2B;
 }
 
 @media (min-width: 992px) {
   #mainNav {
     border-color: transparent;
-    background-color: #01010c;
+    background-color: #131B2B;
 
   }
   #mainNav .navbar-brand {
@@ -373,7 +373,7 @@ header.masthead p {
   font-family: Merriweather, 'Helvetica Neue', Arial, sans-serif;
   position: relative;
   top: 100px;
-  font-size: 15px;
+  font-size: 20px;
   max-width: 25%;
   text-align: center;
   margin-bottom: 200px;
@@ -385,6 +385,12 @@ header.masthead p {
   font-size: 22px;
   background-color: #052D4B;
 }
+.juju3{
+  color: black;
+  font-family: Merriweather, 'Helvetica Neue', Arial, sans-serif;
+  text-align: center;
+  font-size: 22px;
+}
 .headings{
   font-weight: bold;
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
@@ -393,10 +399,12 @@ header.masthead p {
   color: black;
 }
 .headed{
-  text-align: left !important;
-  margin-left: 20%;
-  margin-right: 20%;
-  background-color: #052D4B;
+  text-align: left;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
 }
 .fff{
 position: relative;
@@ -432,7 +440,6 @@ position: relative;
 /* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-box {
   background-color: transparent;
-  border: 1px solid #f1f1f1;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
@@ -470,15 +477,14 @@ position: relative;
 
 /* Style the back side */
 .flip-box-back {
-  opacity: 0.9;
-  color: gray;
+filter: grayscale(67%);
   transform: rotateY(180deg);
   height: 270px;
 }
 .footer{
   width: 100%;
-  height: 400px;
-  background-color: #333333;
+  height: 500px;
+  background-color: #052D4B;
 }
 .jujuy {
   color: rgba(255, 255, 255, 0.86);
@@ -501,6 +507,8 @@ position: relative;
 .imich{
   align-content: center;
   max-width: 60%;
+  position: relative;
+  top: 65px;
 }
 .leblanc{
   color: white;!important;
@@ -510,13 +518,13 @@ width: 100%;
 }
 .cabeza{
 position: relative;
-height: 900px;
+height: 1100px;
 background-image: linear-gradient(#052D4B, #052D4B);
 clip-path: polygon(
 0 0,
 100% 0,
 100% 100%,
-0 calc(100% - 5vw)
+0 calc(100% - 7vw)
 );
 /* change the calc height to a percentage height to get alternate responsive behavior*/
 }
@@ -528,5 +536,73 @@ clip-path: polygon(
   margin-left: 15%;
   position: relative;
   top: 40px;
-
+}
+.imgfoot{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+  max-width: 70%;
+}
+.letraa{
+  font-size: 25px;
+  margin-top: 5%;
+}
+.omg{
+  width: 100%;
+  font-size: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  position: relative;
+  top: 25px;
+}
+.footfooter{
+  background-color: #032034;
+  width:100%;
+  height: 70px;
+  position: relative;
+  top: 35px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.divinoleft{
+  text-align: left;
+  margin-left: 30%;
+  margin-right: 8%;
+  margin-bottom: 7%;
+  max-width: 60%;
+  background-color: #e0e0e0;
+  height: fit-content;
+  border-radius: 5%;
+  font-size: 20px;
+}
+.divinoright{
+  text-align: left;
+  margin-left: 8%;
+  margin-right: 30%;
+  margin-bottom: 7%;
+  max-width: 62%;
+  background-color: #e0e0e0;
+  height: fit-content;
+  border-radius: 5%;
+  font-size: 20px;
+}
+.boxing{
+  display:block;
+  box-sizing: border-box;
+}
+.columno{
+  display:flex;
+  flex-direction:column;
+  width:50%;
+}
+#crack{
+  height:fit-content;
+  width: 100%;
+  display:flex;
+}
+.bold{
+  font-weight: 700;
+  font-size: 25px;
 }
