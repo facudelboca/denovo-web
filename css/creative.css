@@ -362,9 +362,6 @@ header.masthead p {
   border-radius: 10px;
   background-color: #e7b268;
   padding:10px;
-  position: relative;
-  top: 30px;
-  right: 70px;
 }
 .box2{
   border-style: solid;
@@ -373,6 +370,7 @@ header.masthead p {
   border-radius: 10px;
   background-color: #e7b268;
   color: white;!important;
+  padding: 5px;
 }
 .pp{
   height: 800px;
@@ -401,6 +399,20 @@ header.masthead p {
   font-family: Merriweather, 'Helvetica Neue', Arial, sans-serif;
   text-align: center;
   font-size: 22px;
+}
+.juju4{
+  color: black;
+  font-family: Merriweather, 'Helvetica Neue', Arial, sans-serif;
+  text-align: center;
+  font-size: 22px;
+}
+.juju5{
+  color: black;
+  font-family: Merriweather, 'Helvetica Neue', Arial, sans-serif;
+  text-align: left;
+  font-size: 19px;
+  margin-left: 5%;
+  margin-bottom: 5%;
 }
 .headings{
   font-weight: bold;
@@ -532,7 +544,7 @@ width: 100%;
 }
 .cabeza{
 position: relative;
-height: 1100px;
+height: 1000px;
 background-image: linear-gradient(#052D4B, #052D4B);
 clip-path: polygon(
 0 0,
@@ -541,6 +553,18 @@ clip-path: polygon(
 0 calc(100% - 7vw)
 );
 /* change the calc height to a percentage height to get alternate responsive behavior*/
+}
+.cabeza2{
+  position: relative;
+  height: 900px;
+  background-image: linear-gradient(#052D4B, #052D4B);
+  clip-path: polygon(
+          0 0,
+          100% 0,
+          100% 100%,
+          0 calc(100% - 7vw)
+  );
+  /* change the calc height to a percentage height to get alternate responsive behavior*/
 }
 .frase{
   text-align: center;
@@ -638,13 +662,14 @@ clip-path: polygon(
   transform: scale(1.5);
 }
 .texto{
-  margin-left: 15%;
-  margin-right: 10%;
-  font-size: 25px;
+  margin-left: 7%;
+  font-size: 20px;
   color: #0b0b0b;!important;
   display: inline-block;
   vertical-align: middle;
   line-height: normal;
+  position: relative;
+  top: 20px;
 }
 .marbot{
   height: 500px;
@@ -679,19 +704,15 @@ clip-path: polygon(
 }
 .imgdrch{
   float: right;
-  max-width: 50%;
-  margin-right: 5%;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  margin-left: 5%;
+  max-height: 90%;
+  width: auto;
+  margin: 2% 2% 2% 2%;
 }
 .imgizq{
   float: left;
-  max-width: 50%;
-  margin-right: 5%;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  margin-left: 5%;
+  max-height: 90%;
+  width: auto;
+  margin: 2% 2% 2% 2%;
 }
 .txt1{
   font-size: 18px;
@@ -703,6 +724,33 @@ clip-path: polygon(
   font-size: 18px;
   margin-left: 5%;
   margin-right: 5%;
-  padding-bottom: 5%;
   width: fit-content;
+}
+.cajja{
+  font-size: 20px;
+  color: #0b0b0b;!important;
+  width: 11%;
+  text-align: center;
+  position: relative;
+  left: 50%;
+}
+.cajja2{
+  font-size: 20px;
+  color: #0b0b0b;!important;
+  width: 11%;
+  text-align: center;
+}
+.grisi{
+  background-color: #e0e0e0;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 5%;
+
+}
+.grisin{
+  text-align: left;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-right: 6.25%;
+  margin-left: 6.25%;
 }
