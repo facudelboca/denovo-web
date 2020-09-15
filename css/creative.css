@@ -757,13 +757,13 @@ clip-path: polygon(
 }
 .yeah{
   margin-left: 3%;
-  max-width: 100%;
+  max-width: 30%;
 }
 .yeah2{
   float: left;
   margin-left: 10%;
   margin-right: 5%;
-  max-width: 100%;
+  max-width: 30%;
 }
 .titulos{
   font-size: 25px;
@@ -771,4 +771,10 @@ clip-path: polygon(
 }
 .witdh{
   width: 60%;!important;
+}
+.boxservice{
+  background-size: cover;
+  height: 270px;
+  color: black;
+
 }
