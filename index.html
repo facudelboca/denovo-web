@@ -2,7 +2,7 @@
 <html lang="es">
 
   <head>
-    
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -23,7 +23,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/0.9.9/magnific-popup.css" rel="stylesheet" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/magnific.js"></script>
-    
+
     <!-- Custom styles for this template -->
     <link href="css/creative.css" rel="stylesheet">
   </head>
@@ -54,49 +54,62 @@
             <a class="nav-link js-scroll-trigger" href="sustentabilidad.html">Sustentabilidad</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="contacto.html">Contacto</a>
+            <a class="nav-link js-scroll-trigger" href="#popup"><div class="genius">Contacto</div></a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
+  <body>
+  <div><p style="text-align: center"><a href="#popup"></a></p></div>
+  <div id="popup" class="overlay">
+    <div id="popupBody">
+      <a id="cerrar" href="#">&times;</a>
+      <div class="popupContent">
+        <form action="#">Contacto
+          <input type="text" class="midd" style="height: 3em" placeholder="Nombre y Apellido">
+          <input type="text" class="midd" style="height: 3em" placeholder="Telefono">
+          <input type="text" class="midd" style="height: 3em" placeholder="Correo Electronico">
+          <textarea name="message" class="midd" rows="10" cols="30" placeholder="Mensaje"></textarea>
+          <button type="submit" style="margin-left: 40%; margin-right: 40%; width: 20%">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  </body>
+
+
   <header>
     <video src="./img/denovo.mp4" width="100%"; height="100%" autoplay muted></video>
   </header>
 
-  <section>
-  <hr class="my-4">
-  <div class="bg-dark" id="about">
-    <div class="headings">Servicios</div>
-    <div class="container">
-      <div class="row row-cols-2">
-        <div class="row">
-            <img src="./img/emoji.jpg" class="emoji juju" style="margin-left: 3%;">
-             <div class="col-sm juju">
-               Construcción de edificios residenciales (casas, condominios, edificios), industriales, comerciales, etc.</div>
-               <img src="./img/emoji2.jpg" class="emoji juju">
-               <div class="col-sm juju" > Construcción para empresas que quieren aportar parte del producto (como compra de materiales).
-               </div>
-          <img src="./img/emoji3.jpg" class="emoji juju">
-          <div class="col-sm juju">
-           Reciclado de industrias y todo tipo de edificios.
+  <section style="margin-right: 10%; margin-left: 10%">
+    <hr class="my-4">
+    <div class="bg-dark">
+      <div class="headings" style="margin-bottom: 100px">Servicios</div>
+      <div class="container">
+        <div class="row row-cols-2">
+          <div class="row">
+            <div style="width: 25%"><img src="./img/emoji.jpg" class="emoji juju">
+              <p class="juju" style="margin-left: 20%; margin-right: 20%">Construcción de edificios residenciales (casas, condominios, edificios), industriales, comerciales, etc.</p></div>
+            <div style="width: 25%"><img src="./img/emoji3.jpg" class="emoji juju">
+              <p class="juju" style="margin-left: 20%; margin-right: 20%">Reciclado de industrias y todo tipo de edificios.</p></div>
+            <div style="width: 25%"><img src="./img/emoji2.jpg" class="emoji juju">
+              <p class="juju" style="margin-left: 20%; margin-right: 20%">Construcción para empresas que quieren aportar parte del producto (como compra de materiales).</p></div>
+            <div style="width: 25%"><img src="./img/emoji4.jpg" class="emoji juju">
+              <p class="juju" style="margin-left: 20%; margin-right: 20%">Obras con exigencias de estándares ambientales.</p></div>
           </div>
-               <img src="./img/emoji4.jpg" class="emoji juju">
-               <div class="col-sm juju" style="margin-right: 3%"> Obras con exigencias de estándares ambientales.
-        </div>
         </div>
       </div>
     </div>
-  </div>
-  </div>
-</section>
+  </section>
 
   <section class="cabeza">
     <div class="juju2" id="services">
       <div class="headings headed leblanc">De novo</div>
-      <hr class="my-4">
-      <div class="juju2 headed leblanc leblanco"><p>Somos una empresa que trabaja para que nuestros clientes disfruten la experiencia de
+      <hr class="my-4 headed">
+      <div class="juju2 headed leblanc"><p>Somos una empresa que trabaja para que nuestros clientes disfruten la experiencia de
         construir con nosotros: con <b>calidad</b>, con <b>tecnologías  innovadoras</b> y un <b>vínculo amigable con el ambiente.</b></p></div>
 <img src="./img/Denovouuu.png" class="imich">
     </div>
@@ -117,9 +130,12 @@
           <div class="flip-box-inner">
             <div style="background: url('./img/CENTRO CULTURAL EL NOGAL.png'); background-size: cover; no-repeat;" class="flip-box-front"><div class="centered"></div>
             </div>
-            <div style="background: url('./img/CENTRO CULTURAL EL NOGAL.png'); background-size: cover; no-repeat;" class="flip-box-back">
-              <p class="centered">Centro Cultural El Nogal
-                </p><p class="centered"><a class="box2" style="width: 20%" href="obras.html">Ver más</a></p>
+            <div>
+              <a href="obras.html"><div style="background: url('./img/CENTRO CULTURAL EL NOGAL.png'); background-size: cover; no-repeat;" class="flip-box-back">
+                <div class="text-block2">
+                  <p class="centered">Centro Cultural El Nogal</p>
+                </div>
+              </div></a>
             </div>
           </div>
         </div>
@@ -127,27 +143,33 @@
           <div class="flip-box-inner">
             <div  style="background: url('./img/CONDOMINIO GREEN PARK TORRE 3.jpg'); background-size: cover; no-repeat;" class="flip-box-front"><div class="centered"></div>
             </div>
-            <div  style="background: url('./img/CONDOMINIO GREEN PARK TORRE 3.jpg'); background-size: cover; no-repeat;" class="flip-box-back">
-              <p class="centered">Condominio Green Park Torre 3</p><p class="centered"><a class="box2" style="width: 20%" href="obras.html">Ver más</a></p>
-            </div>
+            <a href="obras.html"><div  style="background: url('./img/CONDOMINIO GREEN PARK TORRE 3.jpg'); background-size: cover; no-repeat;" class="flip-box-back">
+              <div class="text-block2">
+                <p class="centered">Condominio Green Park Torre 3</p>
+              </div>
+            </div></a>
           </div>
         </div>
         <div class="flip-box column imagenes">
           <div class="flip-box-inner">
             <div  style="background: url('./img/CONDOMINIO INTROVA ECO HOUSING.jpg'); background-size: cover; no-repeat;" class="flip-box-front"><div class="centered"></div>
             </div>
-            <div style="background: url('./img/CONDOMINIO INTROVA ECO HOUSING.jpg'); background-size: cover; no-repeat;" class="flip-box-back">
-              <p class="centered">Condominio Introva Ecohousing</p><p class="centered"><a class="box2" style="width: 20%" href="obras.html">Ver más</a></p>
-            </div>
+            <a href="obras.html"><div style="background: url('./img/CONDOMINIO INTROVA ECO HOUSING.jpg'); background-size: cover; no-repeat;" class="flip-box-back">
+              <div class="text-block2">
+                <p class="centered">Condominio Introva Ecohousing</p>
+              </div>
+            </div></a>
           </div>
         </div>
         <div class="flip-box column imagenes">
           <div class="flip-box-inner">
             <div style="background: url('./img/VIVIENDA HEREDADES SIETE SOLES.jpg'); background-size: cover; no-repeat;" class="flip-box-front"><div class="centered"></div>
             </div>
-            <div style="background: url('./img/VIVIENDA HEREDADES SIETE SOLES.jpg'); background-size: cover; no-repeat;" class="flip-box-back">
-              <p class="centered">Vivienda heredades Siete soles</p><p class="centered"><a class="box2" style="width: 20%" href="obras.html">Ver más</a></p>
-            </div>
+            <a href="obras.html"><div style="background: url('./img/VIVIENDA HEREDADES SIETE SOLES.jpg'); background-size: cover; no-repeat;" class="flip-box-back">
+              <div class="text-block2">
+                <p class="centered">Vivienda heredades Siete soles</p>
+              </div>
+            </div></a>
           </div>
         </div>
         <div class="w-100"></div>
@@ -155,63 +177,75 @@
           <div class="flip-box-inner">
             <div style="background: url('./img/VIVIENDA SAN CLEMENTE.jpg'); background-size: cover; no-repeat;" class="flip-box-front"><div class="centered"></div>
             </div>
-            <div style="background: url('./img/VIVIENDA SAN CLEMENTE.jpg'); background-size: cover; no-repeat;" class="flip-box-back">
-              <p class="centered">Vivienda San Clemente</p><p class="centered"><a class="box2" style="width: 20%" href="obras.html">Ver más</a></p>
-            </div>
+            <a href="obras.html"><div style="background: url('./img/VIVIENDA SAN CLEMENTE.jpg'); background-size: cover; no-repeat;" class="flip-box-back">
+              <div class="text-block2">
+                <p class="centered">Vivienda San Clemente</p>
+              </div>
+            </div></a>
           </div>
         </div>
         <div class="flip-box column imagenes">
           <div class="flip-box-inner">
             <div style="background: url('./img/VIVIENDA VERANDAS SIETE SOLES.jpeg'); background-size: cover; no-repeat;" class="flip-box-front"><div class="centered"></div>
             </div>
-            <div style="background: url('./img/VIVIENDA VERANDAS SIETE SOLES.jpeg'); background-size: cover; no-repeat;" class="flip-box-back">
-              <p class="centered">Vivienda verandas Siete soles</p><p class="centered"><a class="box2" style="width: 20%" href="obras.html">Ver más</a></p>
-            </div>
+            <a href="obras.html"><div style="background: url('./img/VIVIENDA VERANDAS SIETE SOLES.jpeg'); background-size: cover; no-repeat;" class="flip-box-back">
+              <div class="text-block2">
+                <p class="centered">Vivienda verandas Siete soles</p>
+              </div>
+            </div></a>
           </div>
         </div>
         <div class="flip-box column imagenes">
           <div class="flip-box-inner">
             <div style="background: url('./img/DUPLAS LOMAS DE MANANTIALES.png'); background-size: cover; no-repeat;" class="flip-box-front"><div class="centered"></div>
             </div>
-            <div style="background: url('./img/DUPLAS LOMAS DE MANANTIALES.png'); background-size: cover; no-repeat;" class="flip-box-back">
-              <p class="centered">Duplas Lomas de Manantiales</p><p class="centered"><a class="box2" style="width: 20%" href="obras.html">Ver más</a></p>
-            </div>
+            <a href="obras.html"><div style="background: url('./img/DUPLAS LOMAS DE MANANTIALES.png'); background-size: cover; no-repeat;" class="flip-box-back">
+              <div class="text-block2">
+                <p class="centered">Duplas Lomas de Manantiales</p>
+              </div>
+            </div></a>
           </div>
         </div>
         <div class="flip-box column imagenes">
           <div class="flip-box-inner">
             <div style="background: url('./img/IMG_20190430_170224993.jpg'); background-size: cover; no-repeat;" class="flip-box-front"><div class="centered"></div>
             </div>
-            <div style="background: url('./img/IMG_20190430_170224993.jpg'); background-size: cover; no-repeat;" class="flip-box-back">
-              <p class="centered">Capilla el Torreon</p><p class="centered"><a class="box2" style="width: 20%" href="obras.html">Ver más</a></p>
-            </div>
+            <a href="obras.html"><div style="background: url('./img/IMG_20190430_170224993.jpg'); background-size: cover; no-repeat;" class="flip-box-back">
+              <div class="text-block2">
+                <p class="centered">Capilla el Torreon</p>
+              </div>
+            </div></a>
           </div>
         </div>
-  </div>
-  </div>
+      </div>
+    </div>
 </section>
 
 
+
+
 <footer class="footer">
-  <div style="background-color: green; width:100%; height: 30px"></div>
+  <div style="background-color: #006a00; width:100%; height: 10px"></div>
   <div class="container">
-    <div class="row row-cols-2">
+    <div class="row row-cols-3">
       <div class="row">
 
         <div class="col-sm jujuy ">
           <img src="./img/Logo.png" class="imgfoot">
           <p class="letraa">Brindamos soluciones novedosas, flexibles, sustentables y económicas.</p>
       </div>
-
-        <div class="col-sm jujuy omg">
-          <ul style="list-style-type:none">
-            <li class="omg"><svg width="1.3em" height="1.3em" viewBox="0 0 16 16" class="bi bi-telephone-inbound-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <div class="col-sm jujuy">
+          <p class="letraa lista">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="col-sm jujuy">
+          <ul style="list-style-type:none; line-height: 3em" class="lista">
+            <li><svg width="1.3em" height="1.3em" viewBox="0 0 16 16" class="bi bi-telephone-inbound-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
               <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zM15.854.146a.5.5 0 0 1 0 .708L11.707 5H14.5a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 1 0v2.793L15.146.146a.5.5 0 0 1 .708 0z"/>
             </svg>+54 9 351 393 4377</li>
-            <li class="omg"><svg width="1.3em" height="1.3em" viewBox="0 0 16 16" class="bi bi-envelope" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <li><svg width="1.3em" height="1.3em" viewBox="0 0 16 16" class="bi bi-envelope" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
               <path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
             </svg>info@grupo-denovo.com</li>
-            <li class="omg"><?xml version="1.0" encoding="iso-8859-1"?>
+            <li><?xml version="1.0" encoding="iso-8859-1"?>
               <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
               <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
               <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
