@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  font-family: Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 
 hr {
@@ -35,7 +35,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: Lato, 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-size: 5em;
   font-weight: bold;
   color: white;
@@ -64,7 +64,7 @@ section {
 }
 
 .section-heading {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family:  Lato, 'Titillium Web','Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-size: 1.5em;
   color: white;
   position: relative;
@@ -100,7 +100,7 @@ img::-moz-selection {
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
   background-color: #fff;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: Lato, 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -110,7 +110,7 @@ img::-moz-selection {
   font-weight: 800;
   text-transform: uppercase;
   color: #FF9900;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: Lato, 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -272,7 +272,7 @@ header.masthead p {
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   padding: 0 15px;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: Lato, 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
@@ -310,7 +310,7 @@ header.masthead p {
   font-weight: 700;
   border: none;
   border-radius: 300px;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: Lato, 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   color: white;
 }
 
@@ -378,8 +378,8 @@ header.masthead p {
 }
 .juju{
   color: black;
-  font-weight: bold;
-  font-family: Merriweather, 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 500;
+  font-family: Lato, Merriweather, 'Helvetica Neue', Arial, sans-serif;
   font-size: 20px;
   width: auto;
   text-align: center;
@@ -387,26 +387,26 @@ header.masthead p {
 }
 .juju2{
   color: black;
-  font-family: Merriweather, 'Helvetica Neue', Arial, sans-serif;
+  font-family: Lato, Merriweather, 'Helvetica Neue', Arial, sans-serif;
   text-align: center;
   font-size: 21px;
   background-color: #052D4B;
 }
 .juju3{
   color: black;
-  font-family: Merriweather, 'Helvetica Neue', Arial, sans-serif;
+  font-family: Lato, Merriweather, 'Helvetica Neue', Arial, sans-serif;
   text-align: center;
   font-size: 25px;
 }
 .juju4{
   color: black;
-  font-family: Merriweather, 'Helvetica Neue', Arial, sans-serif;
+  font-family: Lato, Merriweather, 'Helvetica Neue', Arial, sans-serif;
   text-align: center;
   font-size: 21px;
 }
 .juju5{
   color: black;
-  font-family: Merriweather, 'Helvetica Neue', Arial, sans-serif;
+  font-family: Lato, Merriweather, 'Helvetica Neue', Arial, sans-serif;
   text-align: center;
   font-size: 19px;
   margin-left: 5%;
@@ -414,13 +414,13 @@ header.masthead p {
 }
 .juju6{
   color: black;
-  font-family: Merriweather, 'Helvetica Neue', Arial, sans-serif;
+  font-family: Lato, Merriweather, 'Helvetica Neue', Arial, sans-serif;
   text-align: center;
   font-size: 20px;
 }
 .headings{
   font-weight: bold;
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  font-family: Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
   font-size: 2.5em;
   text-align: center;
   color: black;
@@ -442,7 +442,7 @@ position: relative;
 .column {
   float: left;
   width: 25%;
-  margin:-1px;
+  margin: 0px;
 }
 .imagenes{
   height: 270px;
@@ -459,7 +459,7 @@ position: relative;
   align-items: center;
   position: relative;
   top: 45%;
-  font-family: Merriweather, 'Helvetica Neue', Arial, sans-serif;
+  font-family: Lato, Merriweather, 'Helvetica Neue', Arial, sans-serif;
   text-transform: uppercase;
   color: white;!important;
 }
@@ -514,14 +514,14 @@ position: relative;
 }
 .footer{
   width: 100%;
-  height: 400px;
+  height: 350px;
   background-color: #052D4B;
 }
 .jujuy {
   color: rgba(255, 255, 255, 0.86);
   font-size: 15px;
-  font-weight: bold;
-  font-family: Merriweather, 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 600;
+  font-family: Lato, Merriweather, 'Helvetica Neue', Arial, sans-serif;
 }
 .centeredy {
   position: relative;
@@ -565,9 +565,9 @@ clip-path: polygon(
 .frase{
   text-align: center;
   font-size: 1.75rem;
-  font-family: Merriweather, 'Helvetica Neue', Arial, sans-serif;
-  margin-right: 20%;
-  margin-left: 20%;
+  font-family: Lato, Arial;
+  margin-right: 22%;
+  margin-left: 22%;
   position: relative;
   top: 40px;
 }
@@ -685,6 +685,7 @@ clip-path: polygon(
   width: 70%;
   margin-bottom: 50px;
   border-width: 0px;
+  font-family: Lato;
 }
 .cuchuflo{
   background-color: #e0e0e0;
@@ -844,7 +845,7 @@ clip-path: polygon(
   border-bottom-left-radius:  20px 20px;
   background-color: #e0e0e0;
   font-size: 28px;
-  line-height: 3em;
+  line-height: 2em;
 }
 .divinoright3{
     text-align: left;
@@ -858,7 +859,7 @@ clip-path: polygon(
   border-bottom-right-radius: 20px 20px;
   border-bottom-left-radius:  20px 20px;
   font-size: 28px;
-  line-height: 3em;
+  line-height: 2.5em;
 }
 .boxing2{
     display:block;
@@ -867,12 +868,12 @@ clip-path: polygon(
 .columnoizq2{
     display:flex;
     flex-direction:column;
-    width:63.1%;
+    width:63.8%;
 }
 .columnodrc2{
     display:flex;
     flex-direction:column;
-    width:36.9%;
+    width:36.2%;
 }
 .columnoizq3{
   display:flex;
@@ -905,7 +906,7 @@ clip-path: polygon(
   background-color: rgba(0, 0, 0, 0.4);
   color: white;
   width: 100%;
-  height: 268px;
+  height: 270px;
   vertical-align: middle;
   text-align: center;
   position: relative;
@@ -931,7 +932,8 @@ clip-path: polygon(
   z-index: 99;
 }
 #popupBody{
-  width: 46%;
+  width: 55%;
+  max-height: 650px;
   padding: 2%;
   border-radius: 15px;
   box-shadow: 0 0 5px #CCC;
@@ -956,9 +958,23 @@ clip-path: polygon(
   background-color: #e0e0e0;
   padding-bottom: 10px;
   font-size: 28px;
-  height: 84px;
-  line-height: 3em;
+  height: 70px;
+  line-height: 2.5em;
 }
 .genius{
   color: salmon;!important;
 }
+#jijiji{
+  width: 16%;
+  text-align: left!important;
+}
+.titulin{
+  text-align: left;
+  margin-left: 8%;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  font-size: 35px;
+}
+@font-face {
+  font-family: Auro;
+  src: url('Auro-Regular.otf'); }
