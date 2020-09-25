@@ -524,7 +524,7 @@ position: relative;
 }
 .footer{
   width: 100%;
-  height: 220px;
+  height: fit-content;
   background-color: #052D4B;
 }
 .jujuy {
@@ -547,7 +547,7 @@ position: relative;
 }
 .imich{
   align-content: center;
-  max-width: 60%;
+  width: 60%;
   position: relative;
   top: 65px;
 }
@@ -1020,7 +1020,7 @@ clip-path: polygon(
   color: salmon;!important;
 }
 #jijiji{
-  width: 16%;
+  width: 25%;
   text-align: left!important;
 }
 .titulin{
@@ -1099,7 +1099,30 @@ clip-path: polygon(
   border-top-left-radius: 20px 20px;
   border-top-right-radius: 20px 20px;
 }
+.divo{
+  width: 25%;
+}
+@media (max-width: 991px) {
+  .divo{
+    width: 50%;
+  }
+  .imich{
+    width: 90%;
+  }
+}
+@media (max-width: 890px) {
+  .column{
+    width: 50%;
+    float: left;
+  }
 
+}
+@media (max-width: 500px) {
+  .column{
+    width: 100%;
+    float: left;
+  }
 
+}
 
 
