@@ -98,7 +98,7 @@ img::-moz-selection {
 
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-  background-color: #fff;
+  background-color: #131B2B;
   font-family: Lato, 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
@@ -154,6 +154,7 @@ img::-moz-selection {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link {
     padding: 0.5rem 1rem;
+    float: right;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
@@ -574,7 +575,7 @@ clip-path: polygon(
 }
 .cabeza2{
   position: relative;
-  height: 820px;
+  height:fit-content;
   background-image: linear-gradient(#052D4B, #052D4B);
   clip-path: polygon(
           0 0,
@@ -625,7 +626,7 @@ clip-path: polygon(
   width: 65%;
   background-color: #e0e0e0;
   height: fit-content;
-  border-radius: 5%;
+  border-radius: 20px 20px;
   font-size: 20px;
 }
 .divinoright{
@@ -636,7 +637,7 @@ clip-path: polygon(
   width: 65%;
   background-color: #e0e0e0;
   height: fit-content;
-  border-radius: 5%;
+  border-radius: 20px 20px;
   font-size: 20px;
 }
 .boxing{
@@ -720,32 +721,34 @@ clip-path: polygon(
 }
 .cuchuflo{
   background-color: #e0e0e0;
-  height: 500px;
+  min-height: 500px;
+  height: fit-content;
+  padding-bottom: 50px;
   margin-left: 7%;
   margin-right: 7%;
 }
 .imgdrch{
   float: right;
-  max-height: 90%;
+  height: 450px;
   width: auto;
   margin: 2% 2% 2% 2%;
 }
 .imgizq{
   float: left;
-  max-height: 90%;
+  height: 450px;
   width: auto;
   margin: 2% 2% 2% 2%;
 }
 .txt1{
-  font-size: 18px;
-  margin-left: 3%;
-  margin-right: 3%;
+  font-size: 20px;
+  margin-left: 2%;
+  margin-right: 2%;
   padding-top: 3%;
 }
 .txt2{
-  font-size: 17px;
-  margin-left: 3%;
-  margin-right: 3%;
+  font-size: 18px;
+  margin-left: 2%;
+  margin-right: 2%;
   width: fit-content;
 }
 .cajja{
@@ -895,8 +898,7 @@ clip-path: polygon(
   margin-right: 1%;
   margin-bottom: 2%;
   max-width: 100%;
-  height: 850px;
-  width: auto;
+  height: 800px;
   border-radius: 20px 20px;
 }
 .divinoright5{
@@ -916,12 +918,12 @@ clip-path: polygon(
 .columnoizq2{
     display:flex;
     flex-direction:column;
-    width:63.8%;
+    width:63%;
 }
 .columnodrc2{
     display:flex;
     flex-direction:column;
-    width:36.2%;
+    width:37%;
 }
 .columnoizq3{
   display:flex;
@@ -932,6 +934,11 @@ clip-path: polygon(
   display:flex;
   flex-direction:column;
   width:50.43%;
+}
+.equipi{
+   width: 33.33%;
+    background-color:#052D4B;
+    color: whitesmoke;
 }
 #crack2{
     height:fit-content;
@@ -1092,8 +1099,13 @@ clip-path: polygon(
   font-family: Auro;
   src: url("Auro-Regular.otf");
 }
-.logo{
+#logo{
   font-family: Ubuntu;!important;
+  font-weight: 600;
+}
+.relativi{
+  position: relative;
+  top: 130px;
 }
 .imagin{
   border-top-left-radius: 20px 20px;
@@ -1102,20 +1114,123 @@ clip-path: polygon(
 .divo{
   width: 25%;
 }
+.photin{
+  width: 15%;
+  float: left;
+  margin-right: 10%;
+}
+.wito{
+  width: 26.1%;
+}
+.wito2{
+  width: 29.3%;
+}
+.wito3{
+  width: 44.6%;
+}
+
+.serviciis{
+  background-color: #e0e0e0;
+  height: 373px; width: 85%;
+  margin: 7% 7.5% 0% 7.5%;
+  border-radius: 20px 20px;
+}
+.margin90{
+  margin-bottom: 90px;
+}
+.imgservice{
+  float: right;
+  height: 100%;
+  width: auto;
+  margin: 0px;
+  z-index: 2;
+  border-top-right-radius: 20px 20px;
+  border-bottom-right-radius: 20px 20px;
+}
+.textinser{
+  text-align: left;
+  margin: 5%;
+  color: black;
+  font-family: Lato, Merriweather, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 30px;
+  line-height: 2em;
+  width: 40%;
+  position: relative;
+  top: 120px;
+}
+.holiwis{
+  font-family: Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+}
+.bobin{
+  margin-bottom: 90px;
+}
+.cachin{
+  width: 42.6%
+}
+.cachin2{
+  width: 57.4%;
+}
+#holo{
+    width: 13%;
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.yeno{
+    display: none;
+}
 @media (max-width: 991px) {
   .divo{
     width: 50%;
   }
   .imich{
-    width: 90%;
+    width: 96%;
   }
+
 }
 @media (max-width: 890px) {
   .column{
     width: 50%;
     float: left;
   }
-
+  .holiwis{
+    height: fit-content;
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .que{
+    line-height: 1.5em;
+    padding-bottom: 0px;
+    height: fit-content;
+  }
+  .margin90{
+    margin-bottom: 10px;
+  }
+  .columnoizq2{
+    width: 100%;
+  }
+  .columnoizq3{
+    width: 100%;
+  }
+  .columnodrc2{
+    width: 100%;
+  }
+  .columnodrc3{
+    width: 100%;
+  }
+  #crack2{
+    width: 96%;
+    margin: 2%;
+    display:flex;
+    flex-direction: column;
+  }
+  .wito .wito2 .wito3{
+    width: 100%;
+  }
+.bobin{
+  margin-bottom: 20px;
+}
 }
 @media (max-width: 500px) {
   .column{
@@ -1123,6 +1238,221 @@ clip-path: polygon(
     float: left;
   }
 
+
 }
+@media (max-width: 350px) {
+  .cabeza{
+    height: fit-content;
+  }
+  .divo{
+    width: 100%;
+  }
+    .photin{
+        width: 70%;
+        margin-left: 20px;
+        margin-top:30px;
+    }
+}
+@media (max-width: 1130px) {
+.imgservice{
+  width: 100%;
+  height: auto;
+  border-radius: 20px 20px;
+
+}
+  .serviciis{
+    height: fit-content;
+  }
+  .textinser{
+    width: 90%;
+    position: relative;
+    top: 0px;
+  }
+  .imgizq{
+    width: 96%;
+    height: auto;
+    margin: 2%;
+  }
+  .imgdrch{
+    width: 96%;
+    height: auto;
+    margin: 2%;
+  }
+
+}
+@media (max-width: 750px) {
+  .columno{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+  }
+}
+
+
+
+.nav {
+  height: 66px;
+  line-height: 66px;
+  background-color: #131B2B;
+  position: fixed;
+  top: 0px;
+  z-index: 99;
+}
+.menu {
+  margin: 0 30px 0 0;
+  font-family: Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 700;
+  text-align:right;
+    text-transform: uppercase;
+}
+.menu a {
+  clear: right;
+  text-decoration: none;
+  color: whitesmoke;
+  margin: 0 10px;
+  line-height: 66px;
+    font-size: 16px;
+font-family: Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+}
+
+
+
+label {
+  margin: 0 40px 0 0;
+  font-size: 26px;
+  line-height: 70px;
+  display: none;
+  width: 26px;
+  float: right;
+  color: white;
+  text-align: right;
+}
+#toggle {
+  display: none;
+}
+.bombo{
+  width: 15%;
+ margin-right: 43%;
+}
+
+
+@media only screen and (max-width: 900px) {
+  label {
+    display: block;
+    width: 100%;
+    cursor: pointer;
+  }
+  .photin{
+    width: 40%;
+   float: left;
+      margin-left: 20px;
+    margin-right: 5%;
+      margin-top:15px;
+  }
+  .menu {
+    text-align: center;
+    width: 100%;
+    display: none;
+    position: absolute;
+    margin-top: 70px;
+  }
+  .menu a {
+    display: block;
+    border-bottom: 1px solid #EAEAEB;
+    margin: 0;
+
+  }
+  #toggle:checked + .menu {
+    display: block;
+    background-color: rgba(0,0,0,0.8);
+  }
+  #holo{
+      display: none;
+  }
+}
+@media only screen and (max-width: 900px) and (min-width: 700px){
+  .nav {
+    height: 110px;
+    line-height: 110px;
+  }
+  .menu {
+    position: absolute;
+    margin-top: 110px;
+  }
+  header{
+    margin-top: 109px;
+  }
+  .bombo{
+    width: 15%;
+    margin-right: 43%;
+  }
+}
+@media only screen and (max-width: 699px) and (min-width: 550px){
+    .nav {
+        height: 90px;
+        line-height: 90px;
+    }
+    .menu {
+        position: absolute;
+        margin-top: 110px;
+    }
+    header{
+        margin-top: 89px;
+    }
+    .bombo{
+        width: 15%;
+        margin-right: 43%;
+    }
+}
+@media only screen and (max-width: 549px){
+  .nav {
+    height: 70px;
+    line-height: 70px;
+  }
+  .menu {
+    position: absolute;
+    margin-top: 70px;
+  }
+  header{
+    margin-top: 69px;
+  }
+  #crack{
+    display: flex;
+    flex-direction: column;
+  }
+  .divinoleft{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+  }
+  .divinoright{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+  }
+  .relativi{
+    position: relative;
+    top: 0px;
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1120px){
+   #holo{
+       width: 20%;
+       margin-left: 20px;
+       margin-top: 10px;
+   }
+}
+@media only screen and (max-width: 900px) and (min-width: 500px){
+.equipi{
+width: 50%;
+}
+}
+@media only screen and (max-width: 499px){
+    .equipi{
+        width: 100%;
+    }
+}
+
 
 
