@@ -705,12 +705,19 @@ clip-path: polygon(
   font-size: 20px;
 }
 .midd{
-  margin-left: 20%;
-  margin-right: 25%;
-  width: 55%;
+  margin-left: 15%;
+  margin-right: 10%;
+  width: 75%;
   margin-bottom: 30px;
   border-width: 0px;
   font-family: Lato;
+}
+.dub{
+  margin: 1% 8% 1% 2%;
+  width: 50%;
+}
+.contac{
+  display: flex;
 }
 .middo{
   margin-right: 3%;
@@ -911,6 +918,11 @@ clip-path: polygon(
   width: auto;
   border-radius: 20px 20px;
 }
+.witor{
+  width: 23%;
+  margin-right: 1%;
+  background-color:#e0e0e0;
+}
 .boxing2{
     display:block;
     box-sizing: border-box;
@@ -936,7 +948,7 @@ clip-path: polygon(
   width:50.43%;
 }
 .equipi{
-   width: 33.33%;
+   width: 31%;
     background-color:#052D4B;
     color: whitesmoke;
 }
@@ -949,10 +961,11 @@ clip-path: polygon(
 }
 #crack3{
   height:fit-content;
-  width: 90%;
-  margin-right: 5%;
-  margin-left: 5%;
+  width: 92%;
+  margin-right: 4%;
+  margin-left: 4%;
   display:flex;
+  flex-wrap: wrap;
 }
 .text-block {
     background-color: rgba(0, 0, 0, 0.5);
@@ -1092,8 +1105,8 @@ clip-path: polygon(
 }
 .wachin{
   text-align: left;
-  margin-left: 55%;
-  margin-right: 15%;
+  margin-left: 50%;
+  margin-right: 1%;
 }
 @font-face {
   font-family: Auro;
@@ -1231,6 +1244,11 @@ clip-path: polygon(
 .bobin{
   margin-bottom: 20px;
 }
+.headed{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 }
 @media (max-width: 500px) {
   .column{
@@ -1369,6 +1387,16 @@ label {
   #holo{
       display: none;
   }
+  .contac{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .dub{
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+  }
 }
 @media only screen and (max-width: 900px) and (min-width: 700px){
   .nav {
@@ -1434,6 +1462,9 @@ label {
     position: relative;
     top: 0px;
   }
+  .wachin{
+    margin-left: 18%;
+  }
 }
 
 @media only screen and (min-width: 900px) and (max-width: 1120px){
@@ -1443,15 +1474,38 @@ label {
        margin-top: 10px;
    }
 }
-@media only screen and (max-width: 900px) and (min-width: 500px){
+@media only screen and (max-width: 900px) and (min-width: 525px){
 .equipi{
-width: 50%;
+width: 48%;
 }
 }
-@media only screen and (max-width: 499px){
+@media only screen and (max-width: 524px){
     .equipi{
-        width: 100%;
+        width: 98%;
     }
+  .divinoright4{
+    height: fit-content;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 950px) and (min-width: 525px){
+.witor{
+  width: 48%;
+}
+}
+@media only screen and (max-width: 524px){
+.witor{
+  width: 99%;
+}
+  .divinoright5{
+    height: fit-content;
+    margin-bottom: 6%;
+  }
+  .midd{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+  }
 }
 
 
