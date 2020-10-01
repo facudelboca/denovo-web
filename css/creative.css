@@ -1199,7 +1199,13 @@ width: 27%;
 }
 @media (max-width: 991px) {
   .divo{
-    width: 50%;
+    width: 45%;
+  }
+  .divo2{
+    width: 55%;
+  }
+  .divo3{
+    width: 55%;
   }
   .imich{
     width: 96%;
@@ -1268,6 +1274,12 @@ width: 27%;
     height: fit-content;
   }
   .divo{
+    width: 100%;
+  }
+  .divo2{
+    width: 100%;
+  }
+  .divo3{
     width: 100%;
   }
     .photin{
