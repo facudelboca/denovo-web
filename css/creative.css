@@ -727,45 +727,55 @@ clip-path: polygon(
 }
 .cuchuflo{
   background-color: #e0e0e0;
-  min-height: 500px;
   height: fit-content;
-  padding-bottom: 50px;
   margin-left: 7%;
   margin-right: 7%;
+  width: 86%;
+  display: flex;
 }
 .imgdrch{
-  float: right;
-  height: 450px;
-  width: auto;
+  height: auto;
+  width: 50%;
   margin: 2% 2% 2% 2%;
 }
 .imgizq{
-  float: left;
-  height: 450px;
-  width: auto;
+  height: auto;
+  width: 50%;
   margin: 2% 2% 2% 2%;
 }
 .txt1{
   font-size: 20px;
+  font-weight: 600;
   margin-left: 2%;
   margin-right: 2%;
-  padding-top: 3%;
+  padding-top: 40px;
+  text-align: center;
 }
 .txt2{
   font-size: 18px;
-  margin-left: 2%;
-  margin-right: 2%;
-  width: fit-content;
+  text-align: center;
+  margin-left: 1.5%;
+  margin-right: 2.5%;
+  width: 96%;
+  position: relative;
+  top: 20%;
 }
 .cajja{
   font-size: 20px;
   color: #e0e0e0;
-  width: 11%;
-  text-align: center;
-  position: relative;
-  left: 50%;
-  top: 40px;
+  width: 40%;
+position: relative;
+  left: 28%;
+  top: 30%;
 }
+.cajjal{
+   font-size: 20px;
+   color: #e0e0e0;
+   width: 40%;
+   position: relative;
+   left: 28%;
+   top: 25%;
+ }
 .cajja2{
   font-size: 20px;
   color: #0b0b0b;!important;
@@ -885,6 +895,13 @@ clip-path: polygon(
   font-size: 28px;
   line-height: 2em;
 }
+.divinoright0{
+  text-align: left;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-bottom: 5%;
+  width: 84%;
+}
 .divinoright3{
     text-align: left;
     margin-left: 1%;
@@ -904,7 +921,7 @@ clip-path: polygon(
   margin-right: 1%;
   margin-bottom: 2%;
   max-width: 100%;
-  height: 840px;
+  height: 800px;
   border-radius: 20px 20px;
 }
 .divinoright5{
@@ -929,40 +946,44 @@ clip-path: polygon(
 .columnoizq2{
     display:flex;
     flex-direction:column;
-    width:63%;
+    width:62.5%;
+  margin-right: 1%;
 }
 .columnodrc2{
     display:flex;
     flex-direction:column;
-    width:37%;
+    width:36.5%;
 }
 .columnoizq3{
   display:flex;
   flex-direction:column;
-  width:49.57%;
+  width:49.07%;
+  margin-right: 1%;
 }
 .columnodrc3{
   display:flex;
   flex-direction:column;
-  width:50.43%;
+  width:49.93%;
 }
 .equipi{
-   width: 31%;
+   width: 30.5%;
+  margin-right: 1.25%;
+  margin-left: 1.25%;
     background-color:#052D4B;
     color: whitesmoke;
 }
 #crack2{
     height:fit-content;
-    width: 80%;
-  margin-right: 10%;
-  margin-left: 10%;
+    width: 70%;
+  margin-right: 15%;
+  margin-left: 15%;
     display:flex;
 }
 #crack3{
   height:fit-content;
-  width: 92%;
-  margin-right: 4%;
-  margin-left: 4%;
+  width: 82%;
+  margin-right: 9%;
+  margin-left: 9%;
   display:flex;
   flex-wrap: wrap;
 }
@@ -1091,7 +1112,7 @@ clip-path: polygon(
 .txtxt2{
   padding: 10px 20px 20px 20px;
   font-family: Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
-  font-size: 15px;
+  font-size: 14px;
 }
 .imish{
   border-top-right-radius: 20px 20px;
@@ -1106,6 +1127,21 @@ clip-path: polygon(
   text-align: left;
   margin-left: 50%;
   margin-right: 1%;
+}
+.flexi{
+  display: flex;
+}
+.rey1{
+  width: 30%;
+  padding: 20px;
+}
+.rey2{
+  width: 70%;
+  padding: 10px;
+}
+.imgabc{
+  width: 98%;
+  margin: 1%;
 }
 @font-face {
   font-family: Auro;
@@ -1149,9 +1185,21 @@ width: 27%;
 
 .serviciis{
   background-color: #e0e0e0;
-  height: 373px; width: 85%;
+  height: 373px;
+  width: 85%;
   margin: 7% 7.5% 0% 7.5%;
   border-radius: 20px 20px;
+}
+.servici0s{
+  background-color: #e0e0e0;
+  height: 300px;
+  width: 100%;
+  margin: 7% 5% 0% 7.5%;
+  border-radius: 20px 20px;
+}
+.imiji{
+  width: 15%;
+  margin: 7% 3% 0% 3%;
 }
 .margin90{
   margin-bottom: 90px;
@@ -1171,16 +1219,15 @@ width: 27%;
   color: black;
   font-family: Lato, Merriweather, 'Helvetica Neue', Arial, sans-serif;
   font-size: 30px;
-  line-height: 2em;
+  line-height: 1.5em;
   width: 40%;
-  position: relative;
-  top: 120px;
+
 }
 .holiwis{
   font-family: Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 .bobin{
-  margin-bottom: 90px;
+  margin-bottom: 100px;
 }
 .cachin{
   width: 42.6%
@@ -1197,15 +1244,20 @@ width: 27%;
 .yeno{
     display: none;
 }
+.stili{
+height:fit-content;
+  margin: 4% 1% 1% 14%;
+  width: 66%;
+}
 @media (max-width: 991px) {
   .divo{
-    width: 45%;
+    width: 50%;
   }
   .divo2{
-    width: 55%;
+    width: 50%;
   }
   .divo3{
-    width: 55%;
+    width: 50%;
   }
   .imich{
     width: 96%;
@@ -1289,20 +1341,12 @@ width: 27%;
     }
 }
 @media (max-width: 1130px) {
-.imgservice{
-  width: 100%;
-  height: auto;
-  border-radius: 20px 20px;
 
 }
   .serviciis{
     height: fit-content;
   }
-  .textinser{
-    width: 90%;
-    position: relative;
-    top: 0px;
-  }
+
   .imgizq{
     width: 96%;
     height: auto;
@@ -1332,6 +1376,7 @@ width: 27%;
   position: fixed;
   top: 0px;
   z-index: 99;
+  width: 100%;
 }
 .menu {
   margin: 0 30px 0 0;
@@ -1339,6 +1384,7 @@ width: 27%;
   font-weight: 700;
   text-align:right;
     text-transform: uppercase;
+  width: 100%;
 }
 .menu a {
   clear: right;
@@ -1475,6 +1521,9 @@ label {
     margin-right: 10%;
     width: 80%;
   }
+  .columno{
+    width: 100%;
+  }
   .relativi{
     position: relative;
     top: 0px;
@@ -1493,7 +1542,7 @@ label {
 }
 @media only screen and (max-width: 900px) and (min-width: 525px){
 .equipi{
-width: 48%;
+width: 47.5%;
 }
 }
 @media only screen and (max-width: 524px){
@@ -1524,6 +1573,87 @@ width: 48%;
     width: 90%;
   }
 }
+@media only screen and (max-width: 1250px) {
+  .servici0s{
+    height: fit-content;
+    width: 80%;
+    margin: 7% 10% 0% 10%;
+  }
+  .imgservice{
+    width: 100%;
+    height: auto;
+    border-radius: 20px 20px;
+}
+  .textinser{
+    width: 90%;
+    position: relative;
+    top: 0px;
+  }
+  .flexi{
+    display: flex;
+    flex-direction: column;
+  }
+  .imiji{
+    width: 34%;
+position: relative;
+  left: 10%;
+  }
+  .divinoright0{
+    text-align: left;
 
+    margin-bottom: 5%;
+    width: 100%;
+  }
+  .stili{
+    height:fit-content;
+    margin: 4% 7% 1% 1%;
+    width: 86%;
+  }
+}
 
+@media only screen and (max-width: 1350px) {
+  .cajja .cajjal .txt2{
+    position: relative;
+    top: 0%;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .cuchuflo{
+    background-color: #e0e0e0;
+    height: fit-content;
+    margin-left: 4%;
+    margin-right: 4%;
+    width: 92%;
+    display: grid;
+    padding-bottom: 30px;
+  }
+  .rey1{
+    width: 100%;
+    grid-row: 2;
+  }
+  .rey2{
+    width: 100%;
+    grid-row: 1;
+  }
+  .txt1{
+    padding-top: 20px;
+  }
+  .txt2{
+    position: relative;
+    top: 0%;
+  }
+  .cajja{
+    width: 25%;
+    position: relative;
+    left: 36%;
+    top: 5%;
+  }
+  .cajjal{
+    width: 25%;
+    position: relative;
+    left: 36%;
+    top: 5%;
+  }
+}
 
