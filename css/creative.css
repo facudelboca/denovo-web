@@ -648,6 +648,11 @@ clip-path: polygon(
   flex-direction:column;
   width:50%;
 }
+.columnaobra{
+  display:flex;
+  flex-direction:column;
+  width:33%;
+}
 #crack{
   height:fit-content;
   width: 100%;
@@ -749,6 +754,14 @@ clip-path: polygon(
   margin-left: 2%;
   margin-right: 2%;
   padding-top: 40px;
+  text-align: center;
+}
+.txt1-2{
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-top: 10px;
   text-align: center;
 }
 .txt2{
@@ -927,6 +940,14 @@ position: relative;
   height: 800px;
   border-radius: 20px 20px;
 }
+.divinoright4-2{
+  text-align: left;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 2%;
+  max-width: 100%;
+  height: fit-content;
+}
 .divinoright5{
   text-align: left;
   margin-left: 1%;
@@ -949,20 +970,20 @@ position: relative;
 .columnoizq2{
     display:flex;
     flex-direction:column;
-    width:65%;
+    width:62.5%;
 margin-right: 2%;
 }
 .columnodrc2{
     display:flex;
     flex-direction:column;
-    width:33%;
+    width:35.5%;
 }
 .imgviviendas{
   width: 50%;
   height: auto;
 }
 .imgconhab{
- width: 33.33%;
+ width: 50%;
   height: auto;
 }
 .columnoizq3{
@@ -983,6 +1004,17 @@ margin-right: 2%;
     background-color:#052D4B;
     color: whitesmoke;
 }
+.equipi2{
+  width: 47.5%;
+  margin-right: 1.25%;
+  margin-left: 1.25%;
+  background-color:#e0e0e0;
+}
+.equipi3{
+  width: 95%;
+  height: fit-content;
+  margin: 2.5%;
+}
 #crack2{
     height:fit-content;
     width: 70%;
@@ -995,6 +1027,14 @@ margin-right: 2%;
   width: 82%;
   margin-right: 9%;
   margin-left: 9%;
+  display:flex;
+  flex-wrap: wrap;
+}
+#crack4{
+  height:fit-content;
+  width: 90%;
+  margin-right: 5%;
+  margin-left: 5%;
   display:flex;
   flex-wrap: wrap;
 }
@@ -1134,6 +1174,16 @@ margin-right: 2%;
   width: 85%;
   margin: 7.5% 7.5% 7.5% 7.5%;
 }
+.lequipe2{
+  width: 96%;
+  margin: 2%;
+  height: auto;
+}
+.obracu{
+  margin: 3% 5% 3% 5%;
+  display: flex;
+  flex-wrap: wrap;
+}
 .wachin{
   text-align: left;
   margin-left: 50%;
@@ -1202,28 +1252,28 @@ width: 27%;
   border-radius: 20px 20px;
 }
 .servici0s{
-  background-color: #cbe3e3;
+  background-color: #d7e5e5;
   height: 350px;
   width: 100%;
   margin: 7% 5% 0% 7.5%;
   border-radius: 20px 20px;
 }
 .servici0s2{
-  background-color: #cbe3e3;
+  background-color: #d7e5e5;
   height: 310px;
   width: 100%;
   margin: 7% 5% 0% 7.5%;
   border-radius: 20px 20px;
 }
 .servici0s3{
-  background-color: #cbe3e3;
+  background-color: #d7e5e5;
   height: 360px;
   width: 100%;
   margin: 7% 5% 0% 7.5%;
   border-radius: 20px 20px;
 }
 .servici0s4{
-  background-color: #cbe3e3;
+  background-color: #d7e5e5;
   height: 420px;
   width: 100%;
   margin: 7% 5% 0% 7.5%;
@@ -1678,6 +1728,15 @@ position: relative;
     margin-right: 4%;
     width: 92%;
     display: grid;
+    padding-bottom: 30px;
+  }
+  .cuchuflo2{
+    background-color: #e0e0e0;
+    height: fit-content;
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 30%;
+    display: flex;
     padding-bottom: 30px;
   }
   .rey1{
