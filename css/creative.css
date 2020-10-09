@@ -1547,6 +1547,10 @@ label {
     margin-right: 5%;
     width: 90%;
   }
+  .equipi2{
+    width: 97%;
+    margin-bottom: 5%;
+  }
 }
 @media only screen and (max-width: 900px) and (min-width: 700px){
   .nav {
@@ -1631,11 +1635,17 @@ label {
 .equipi{
 width: 47.5%;
 }
+  .columnaobra{
+    width: 50%;
+  }
 }
 @media only screen and (max-width: 524px){
     .equipi{
         width: 98%;
     }
+  .columnaobra{
+    width: 100%;
+  }
   .divinoright4{
     height: fit-content;
     text-align: center;
