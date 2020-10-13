@@ -1634,16 +1634,16 @@ label {
 .equipi{
 width: 47.5%;
 }
-  .columnaobra{
-    width: 50%;
+  .equipi3{
+    width: 48%;
   }
 }
 @media only screen and (max-width: 524px){
     .equipi{
         width: 98%;
     }
-  .columnaobra{
-    width: 100%;
+  .equipi3{
+    width: 98%;
   }
   .divinoright4{
     height: fit-content;
