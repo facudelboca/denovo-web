@@ -650,8 +650,7 @@ clip-path: polygon(
 }
 .columnaobra{
   display:flex;
-  flex-direction:column;
-  width:33%;
+  flex-wrap: wrap;
 }
 #crack{
   height:fit-content;
@@ -1011,9 +1010,9 @@ margin-right: 2%;
   background-color:#e0e0e0;
 }
 .equipi3{
-  width: 95%;
-  height: fit-content;
-  margin: 2.5%;
+  width: 31.3%;
+  height: auto;
+  margin: 1%;
 }
 #crack2{
     height:fit-content;
