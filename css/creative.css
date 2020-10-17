@@ -385,7 +385,7 @@ header.masthead p {
   color: black;
   font-weight: 500;
   font-family: Lato, Merriweather, 'Helvetica Neue', Arial, sans-serif;
-  font-size: 20px;
+  font-size: 19px;
   text-align: center;
   margin-bottom: 50px;
 }
@@ -393,26 +393,26 @@ header.masthead p {
   color: black;
   font-family: Lato, Merriweather, 'Helvetica Neue', Arial, sans-serif;
   text-align: center;
-  font-size: 21px;
+  font-size: 18px;
   background-color: #052D4B;
 }
 .juju3{
   color: black;
   font-family: Lato, Merriweather, 'Helvetica Neue', Arial, sans-serif;
   text-align: center;
-  font-size: 25px;
+  font-size: 24px;
 }
 .juju4{
   color: black;
   font-family: Lato, Merriweather, 'Helvetica Neue', Arial, sans-serif;
   text-align: center;
-  font-size: 21px;
+  font-size: 20px;
 }
 .juju5{
   color: black;
   font-family: Lato, Merriweather, 'Helvetica Neue', Arial, sans-serif;
   text-align: center;
-  font-size: 19px;
+  font-size: 18px;
   margin-left: 5%;
   margin-right: 5%;
 }
@@ -420,7 +420,11 @@ header.masthead p {
   color: black;
   font-family: Lato, Merriweather, 'Helvetica Neue', Arial, sans-serif;
   text-align: center;
-  font-size: 20px;
+  font-size: 18px;
+}
+.juju6-2{
+  color: black;
+  font-family: Lato, Merriweather, 'Helvetica Neue', Arial, sans-serif;
 }
 .juju7{
   color: black;
@@ -530,7 +534,7 @@ position: relative;
 .jujuy {
   color: rgba(255, 255, 255, 0.86);
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 500;
   font-family: Lato, Merriweather, 'Helvetica Neue', Arial, sans-serif;
 }
 .centeredy {
@@ -659,7 +663,7 @@ clip-path: polygon(
 }
 .bold{
   font-weight: 700;
-  font-size: 25px;
+  font-size: 23px;
 }
 .imageright{
   float: right;
@@ -770,7 +774,7 @@ clip-path: polygon(
   margin-right: 2.5%;
   width: 96%;
   position: relative;
-  top: 20%;
+  top: 15%;
 }
 .txt3{
   text-align: center!important;
@@ -789,7 +793,7 @@ position: relative;
    width: 40%;
    position: relative;
    left: 28%;
-   top: 25%;
+   top: 20%;
  }
 .cajja2{
   font-size: 20px;
@@ -1184,9 +1188,8 @@ margin-right: 2%;
   flex-wrap: wrap;
 }
 .wachin{
-  text-align: left;
-  margin-left: 50%;
-  margin-right: 1%;
+  text-align: right;
+  margin-right: 3%;
 }
 .flexi{
   display: flex;
@@ -1209,7 +1212,7 @@ margin-right: 2%;
 }
 #logo{
   font-family: Ubuntu;!important;
-  font-weight: 600;
+  font-weight: 500;
 }
 .relativi{
   position: relative;
@@ -1469,16 +1472,16 @@ height:fit-content;
   font-family: Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 700;
   text-align:right;
-    text-transform: uppercase;
+    text-transform: capitalize;
   width: 100%;
 }
 .menu a {
   clear: right;
   text-decoration: none;
   color: whitesmoke;
-  margin: 0 10px;
+  margin: 0 11px;
   line-height: 66px;
-    font-size: 16px;
+    font-size: 20px;
 font-family: Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 
