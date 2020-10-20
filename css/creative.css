@@ -608,7 +608,6 @@ clip-path: polygon(
   width: 66%;
   text-align: center;
   margin-left: 20%;
-
   font-family: 'Auro', Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 500;
 }
@@ -718,8 +717,10 @@ clip-path: polygon(
   margin-left: 15%;
   margin-right: 10%;
   width: 75%;
+  background-color: #cabcbc;
   margin-bottom: 30px;
-  border-width: 0px;
+  border-width: 2px;
+  border-color: white;
   font-family: 'Auro', Lato;
 }
 .dub{
@@ -1128,7 +1129,7 @@ margin-right: 2%;
 }
 .titulin{
   text-align: left;
-  margin-left: 8%;
+  margin-left: 18%;
   margin-bottom: 40px;
   margin-top: 30px;
   font-size: 33px;
@@ -1203,6 +1204,8 @@ margin-right: 2%;
 }
 .flexi{
   display: flex;
+  margin-left: 7%;
+  margin-right: 7%;
 }
 .rey1{
   width: 30%;
@@ -1236,10 +1239,7 @@ url("file:///C:/Users/facun/denovo-web/vendor/webfontkit-20201016-132343/auro-bl
   font-family: Ubuntu;!important;
   font-weight: 500;
 }
-.relativi{
-  position: relative;
-  top: 130px;
-}
+
 .imagin{
   border-top-left-radius: 20px 20px;
   border-top-right-radius: 20px 20px;
@@ -1304,8 +1304,8 @@ width: 27%;
   border-radius: 20px 20px;
 }
 .imiji{
-  width: 15%;
-  margin: 7% 3% 0% 3%;
+  width: 20%;
+  margin: 7% 2% 0% 2%;
 }
 .omg{
   width: 100%;
@@ -1553,7 +1553,6 @@ label {
     display: block;
     border-bottom: 1px solid #EAEAEB;
     margin: 0;
-
   }
   #toggle:checked + .menu {
     display: block;
