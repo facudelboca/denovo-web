@@ -60,6 +60,7 @@ text-faded {
 
 section {
   padding: 8rem 0;
+  background-color: #e8e8e8;
 }
 
 .section-heading {
@@ -566,7 +567,7 @@ width: 100%;
 }
 .cabeza{
 position: relative;
-height: 770px;
+height: 700px;
 background-image: linear-gradient(#052D4B, #052D4B);
 clip-path: polygon(
 0 0,
@@ -576,9 +577,10 @@ clip-path: polygon(
 );
 /* change the calc height to a percentage height to get alternate responsive behavior*/
 }
+
 .cabeza2{
   position: relative;
-  height:fit-content;
+  height:650px;
   background-image: linear-gradient(#052D4B, #052D4B);
   clip-path: polygon(
           0 0,
@@ -590,14 +592,28 @@ clip-path: polygon(
 }
 .frase{
   text-align: center;
-  font-size: 1.75rem;
+  font-size: 2.2rem;
   font-family: 'Auro', Lato, Arial;
   color: #052D4B;
   font-style: italic;
-  margin-right: 22%;
-  margin-left: 22%;
+  padding-right: 5%;
+  padding-left: 5%;
   position: relative;
   top: 40px;
+}
+.imgfras{
+  width: 10%;
+  margin-right: 25%;
+  position: relative;
+  bottom: 15px;
+  border-radius: 50%;
+}
+.imgfras12{
+  width: 10%;
+  margin-left: 25%;
+  position: relative;
+  bottom: 15px;
+  border-radius: 50%;
 }
 .imgfoot{
  margin: 7% 10% 5% 10%;
@@ -717,10 +733,10 @@ clip-path: polygon(
   margin-left: 15%;
   margin-right: 10%;
   width: 75%;
-  background-color: #cabcbc;
+  background-color: #f0fffd;
   margin-bottom: 30px;
-  border-width: 2px;
-  border-color: white;
+  border-width: 1px;
+  border-color: black;
   font-family: 'Auro', Lato;
 }
 .dub{
