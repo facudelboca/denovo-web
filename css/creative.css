@@ -387,7 +387,7 @@ header.masthead p {
   font-weight: 500;
   font-family: 'Auro', Lato, Merriweather, 'Helvetica Neue', Arial, sans-serif;
   font-size: 20px;
-  text-align: center;
+  text-align: justify;
   margin-bottom: 50px;
 }
 .juju2{
@@ -629,14 +629,14 @@ margin-left: 25%;
   border-radius: 50%;
 }
 .imgfoot{
- margin: 7% 10% 5% 10%;
-  max-width: 66%;
+ margin: 9% 10% 5% 10%;
+  max-width: 60%;
 }
 .letraa{
-  font-size: 22px;
-  width: 66%;
+  font-size: 21px;
+  width: 75%;
   text-align: center;
-  margin-left: 20%;
+  margin-left: 12%;
   font-family: 'Auro', Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 500;
 }
@@ -1411,13 +1411,13 @@ url("https://facudelboca.github.io/denovo-web/vendor/webfontkit-20201016-132343/
   border-top-right-radius: 20px 20px;
 }
 .divo{
-  width: 21%;
+  width: 19%;
 }
 .divo2{
-  width: 31%;
+  width: 32%;
 }
 .divo3{
-width: 27%;
+width: 28%;
 }
 .photin{
   width: 15%;
