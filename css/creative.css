@@ -674,7 +674,7 @@ animation-delay: 3s;
 animation-timing-function: ease-in-out;
 }
 #servicehide{
-  display: none;
+  display: block;
 }
 /* need a step for each slide */
 @keyframes scroller {
