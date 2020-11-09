@@ -191,7 +191,7 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url(./img/header.jpg );
+  background-image: url(../img/header.jpg );
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -659,7 +659,6 @@ margin-left: 13%;
 }
 .regular-img-container {
   margin-right: 10%;
-img {}
 }
 .slider-container {
   overflow: hidden;
@@ -1691,7 +1690,6 @@ height:fit-content;
     margin: 2%;
   }
 
-}
 @media (max-width: 750px) {
   .columno{
     display:flex;
