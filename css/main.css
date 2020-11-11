@@ -1184,12 +1184,12 @@ position: relative;
   margin-right: 1%;
   margin-bottom: 2%;
   max-width: 100%;
-  height: 370px;
+  height: fit-content;
   width: auto;
   border-radius: 20px 20px;
 }
 .witor{
-  width: 23%;
+  width: 31%;
   margin-right: 1%;
   background-color:#e0e0e0;
 }
@@ -1389,7 +1389,7 @@ margin-right: 2%;
 
  }
 .txtxt2{
-  padding: 10px 20px 20px 20px;
+  padding: 5px 20px 5px 20px;
   font-family: 'auroregular', Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
   font-size: 14px;
   text-align: justify;
@@ -1420,8 +1420,8 @@ margin-right: 2%;
 }
 .flexi{
   display: flex;
-  margin-left: 7%;
-  margin-right: 7%;
+  margin-left: 12%;
+  margin-right: 12%;
 }
 .rey1{
   width: 30%;
@@ -1495,37 +1495,17 @@ width: 28%;
   background-color: #d7dde1;
   height: fit-content;
   width: 100%;
-  margin: 7% 5% 0% 7.5%;
+  margin: 7% 5% 0% 5%;
   border-radius: 20px 20px;
 }
-.servici0s2{
-  background-color: #d7dde1;
-  height: fit-content;
-  width: 100%;
-  margin: 7% 5% 0% 7.5%;
-  border-radius: 20px 20px;
-}
-.servici0s3{
-  background-color: #d7dde1;
-  height: fit-content;
-  width: 100%;
-  margin: 7% 5% 0% 7.5%;
-  border-radius: 20px 20px;
-}
-.servici0s4{
-  background-color: #d7dde1;
-  height: fit-content;
-  width: 100%;
-  margin: 7% 5% 0% 7.5%;
-  border-radius: 20px 20px;
-}
+
 .imiji{
   width: 20%;
-  margin: 7% 2% 0% 2%;
+  margin: 7% 1% 0% 1%;
 }
 .omg{
   width: 100%;
-  margin: 50% 0% 0% 50%;
+  margin: 50% 0% 0% 5%;
 }
 .margin90{
   margin-bottom: 90px;
@@ -1533,8 +1513,8 @@ width: 28%;
 .imgservice{
   float: right;
   height: auto;
-  width: 70%;
-  margin-left: 45px;
+  width: 65%;
+  margin-left: 25px;
   z-index: 2;
   border-top-right-radius: 20px 20px;
   border-bottom-right-radius: 20px 20px;
@@ -1548,7 +1528,7 @@ width: 28%;
   line-height: 1.5em;
   width: 33%;
   position: relative;
-  top: 45px;
+  top: 20px;
 }
 .underphrase{
   position: relative;
@@ -1856,7 +1836,7 @@ label {
     width: 100%;
     display: none;
     position: absolute;
-    margin-top: 70px;
+
   }
   .menu a {
     display: block;
@@ -1902,6 +1882,12 @@ label {
     margin-right: 43%;
   }
 }
+@media only screen and (max-width: 700px){
+.cabeza2{
+  height:fit-content;
+  padding-bottom: 45px;
+}
+}
 @media only screen and (max-width: 699px) and (min-width: 550px){
     .nav {
         height: 90px;
@@ -1909,7 +1895,7 @@ label {
     }
     .menu {
         position: absolute;
-        margin-top: 110px;
+        margin-top: 90px;
     }
     header{
         margin-top: 89px;
@@ -2004,6 +1990,12 @@ width: 47.5%;
   }
 }
 @media only screen and (max-width: 1280px) {
+  .imgservice{
+    width: 100%;
+    height: auto;
+    border-radius: 20px 20px;
+    margin-bottom: 20px;
+  }
   .servici0s{
     height: fit-content;
     width: 80%;
@@ -2024,15 +2016,11 @@ width: 47.5%;
     width: 80%;
     margin: 7% 10% 0% 10%;
   }
-  .imgservice{
-    width: 100%;
-    height: auto;
-    border-radius: 20px 20px;
-}
   .textinser{
     width: 90%;
     position: relative;
     top: 0px;
+    margin-bottom: 20px;
   }
   .flexi{
     display: flex;
@@ -2062,7 +2050,31 @@ position: relative;
     top: 0%;
   }
 }
-
+@media only screen and (min-width: 1281px) and (max-width: 1381px) {
+  .imgservice{
+    margin-left: 25px;
+  }
+}
+@media only screen and (min-width: 1382px) and (max-width: 1500px) {
+  .imgservice{
+    margin-left: 50px;
+  }
+}
+@media only screen and (min-width: 1501px) and (max-width: 1700px) {
+  .imgservice{
+    margin-left: 70px;
+  }
+}
+@media only screen and (min-width: 1301px) and (max-width: 1500px) {
+  .txt2{
+    position: relative;
+    top: 9%;
+  }
+  .cajjal{
+    position: relative;
+    top: 6%;
+  }
+}
 @media only screen and (max-width: 1300px) {
   .cuchuflo{
     background-color: #e0e0e0;
@@ -2071,7 +2083,7 @@ position: relative;
     margin-right: 4%;
     width: 92%;
     display: grid;
-    padding-bottom: 30px;
+
   }
   .cuchuflo2{
     background-color: #e0e0e0;
