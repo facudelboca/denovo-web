@@ -595,6 +595,12 @@ clip-path: polygon(
 .hidden{
   opacity: 0;
 }
+.nodisplay{
+  display: none;
+}
+.displayblock{
+  display: block;
+}
 
 .frase{
   text-align: center;
@@ -674,7 +680,6 @@ animation-delay: 3s;
 animation-timing-function: ease-in-out;
 }
 #servicehide{
-  display: block;
 }
 /* need a step for each slide */
 @keyframes scroller {
