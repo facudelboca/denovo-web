@@ -21,7 +21,7 @@
     <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
     <!-- Plugin CSS -->
-
+    <script src="js/main.js"></script>
     <!-- Custom styles for this template -->
     <link href="css/main.css" rel="stylesheet">
 </head>
@@ -53,11 +53,21 @@
                 <div class="servici0s">
                     <img src="./img/123.jpg" class="imgservice">
                     <p class="textinser">
-                        Construcción llave en mano con servicio de posventa</p><a href="#" id="showHideContainer" onclick="showHideDiv()">+</a></div>
+                        Construcción llave en mano con servicio de posventa</p><a href="#" id="showHideContainer" onclick="
+                    function showHideDiv() {
+                    let divTest = document.getElementById('servicehide');
+                    if(divTest.classList.contains('nodisplay')){
+                    divTest.classList.add('displayblock');
+                    divTest.classList.remove('nodisplay')
+                    } else {
+                    divTest.classList.add('nodisplay');
+                    divTest.classList.remove('displayblock')
+                    }
+                    }">Mas</a></div>
    </div>
 
 
-    <div id="servicehide" style="display: none">
+    <div id="servicehide" class="nodisplay">
         <div style="height: 150px"></div>
     <div class="juju3" ><p class="titulin">Edificios residenciales</p>
         <div id='crack2'>

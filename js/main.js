@@ -33,18 +33,6 @@
   checkPosition();
 
 
+
 })();
-document.getElementById("servicehide").addEventListener("click", showHideDiv);
-function showHideDiv() {
-  console.log('displayelement');
-  let divTest = document.getElementById('servicehide');
-  console.log('displayelement');
-  if (divTest.style.display === 'none') {
-    divTest.style.display = 'block';
-    console.log('if');
-  }
-else {
-    divTest.style.display = 'none';
-    console.log('elseif');
-  }
-}
+
