@@ -449,6 +449,15 @@ header.masthead p {
   padding-bottom: 20px;
 
 }
+.butserv{
+  cursor: pointer;
+  width: 9%;
+  text-align: center;
+  margin-left: 10%;
+  margin-bottom: 2%;
+  background-color: #052D4B;
+  color: #e8e8e8;
+}
 .fff{
 position: relative;
   top: 50px;
