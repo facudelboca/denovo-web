@@ -881,6 +881,17 @@ animation-timing-function: ease-in-out;
   font-family: 'auroregular', Lato;
   color: #052D4B;
 }
+.txt2-2{
+  font-size: 18px;
+  text-align: justify;
+  margin-left: 1%;
+  margin-right: 2%;
+  width: 97%;
+  position: relative;
+  top: 0%;
+  font-family: 'auroregular', Lato;
+  color: #052D4B;
+}
 .txt3{
   text-align: center!important;
 }
@@ -900,6 +911,14 @@ position: relative;
    left: 28%;
    top: 20%;
  }
+.cajjala{
+  font-size: 20px;
+  color: #e0e0e0;
+  width: 40%;
+  position: relative;
+  left: 28%;
+  top: 1%;
+}
 .cajja2{
   font-size: 20px;
   color: #0b0b0b;!important;
@@ -2062,7 +2081,7 @@ position: relative;
 }
 
 @media only screen and (max-width: 1350px) {
-  .cajja .cajjal .txt2{
+  .cajja .cajjal .txt2 .txt2-2{
     position: relative;
     top: 0%;
   }
@@ -2083,7 +2102,7 @@ position: relative;
   }
 }
 @media only screen and (min-width: 1301px) and (max-width: 1500px) {
-  .txt2{
+  .txt2 .txt2-2{
     position: relative;
     top: 9%;
   }
@@ -2122,7 +2141,7 @@ position: relative;
   .txt1{
     padding-top: 20px;
   }
-  .txt2{
+  .txt2 .txt2-2{
     position: relative;
     top: 0%;
   }
