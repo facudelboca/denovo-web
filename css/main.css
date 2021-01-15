@@ -613,9 +613,9 @@ clip-path: polygon(
 
 .frase{
   text-align: center;
-  font-size: 4rem;
+  font-size: 4.3rem;
   font-family: 'auroregular', Lato, Arial;
-  color: #052D4B;
+  color: #052843;
   font-style: italic;
   padding-right: 2%;
   padding-left: 2%;
@@ -757,6 +757,7 @@ animation-timing-function: ease-in-out;
   width: 100%;
   display:flex;
 }
+
 .bold{
   font-weight: 700;
   font-size: 23px;
