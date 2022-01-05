@@ -434,11 +434,24 @@ header.masthead p {
   text-align: center;
   font-size: 18px;
 }
+.letra_mail{
+  color: #052D4B;
+  font-family: 'auroregular', Lato, Merriweather, 'Helvetica Neue', Arial, sans-serif;
+  text-align: left;
+  font-size: 20px;
+}
 .headings{
   font-weight: bold;
   font-family: 'auroregular', Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
   color: #052D4B;
   font-size: 2.5em;
+  text-align: center;
+}
+.tipos_cdc{
+  font-weight: bold;
+  font-family: 'auroregular', Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  color: #052D4B;
+  font-size: 2em;
   text-align: center;
 }
 .headed{
@@ -451,10 +464,10 @@ header.masthead p {
 }
 .butserv{
   cursor: pointer;
-  width: 9%;
+  width: 14%;
   text-align: center;
   margin-left: 10%;
-  margin-bottom: 2%;
+  margin-bottom: 1%;
   background-color: #052D4B;
   color: #e8e8e8;
 }
@@ -693,7 +706,7 @@ margin-left: 13%;
 }
 .letraa{
   font-size: 21px;
-  width: 75%;
+  width: 85%;
   text-align: center;
   margin-left: 12%;
   font-family: 'auroregular', Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
@@ -935,6 +948,18 @@ animation-timing-function: ease-in-out;
   font-family: 'auroregular', Lato;
   color: #052D4B;
 }
+.txt_obras{
+  font-size: 20px;
+  text-align: left;
+  margin-left: 3%;
+  margin-right: 3%;
+  line-height: 1.9;
+  width: 94%;
+  position: relative;
+  top: 0%;
+  font-family: 'auroregular', Lato;
+  color: #052D4B;
+}
 .txt3{
   text-align: center!important;
 }
@@ -952,7 +977,7 @@ position: relative;
    width: 40%;
    position: relative;
    left: 28%;
-   top: 20%;
+   top: 12%;
  }
 .cajjala{
   font-size: 20px;
@@ -1143,7 +1168,8 @@ position: relative;
 }
 .lista{
     text-align: left;
-    margin-top: 8%;
+    margin-top: 12%;
+  margin-left: 15%;
   font-family: 'auroregular', Lato;
 }
 .column2{
@@ -1240,13 +1266,20 @@ position: relative;
 }
 .divinoright4{
   text-align: left;
-  margin-left: 1%;
-  margin-right: 1%;
-  margin-bottom: 2%;
   max-width: 100%;
-  height: 800px;
-  border-radius: 20px 20px;
+  height: 690px;
 }
+.fichas_equipo{
+  text-align: left;
+  max-width: 100%;
+  height: 730px;
+}
+.fichas_chicas{
+  text-align: left;
+  max-width: 100%;
+  height: 670px;
+}
+
 .divinoright4-2{
   text-align: left;
   margin-left: 1%;
@@ -1305,9 +1338,8 @@ margin-right: 2%;
   width:49.93%;
 }
 .equipi{
-   width: 30.5%;
-  margin-right: 1.25%;
-  margin-left: 1.25%;
+   width: 24%;
+    margin: 1% 0.5% 1% 0.5%;
     background-color:#052D4B;
     color: #e0e0e0;
 }
@@ -1331,9 +1363,9 @@ margin-right: 2%;
 }
 #crack3{
   height:fit-content;
-  width: 82%;
-  margin-right: 9%;
-  margin-left: 9%;
+  width: 94%;
+  margin-right: 3%;
+  margin-left: 3%;
   display:flex;
   flex-wrap: wrap;
 }
@@ -1460,13 +1492,13 @@ margin-right: 2%;
    font-family: 'auroregular', Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
   padding-right: 22px;
   padding-left: 22px;
-  padding-top: 10px;
+  padding-top: 5px;
   text-align: center;
   font-size: 18px;
 
  }
 .txtxt2{
-  padding: 5px 20px 5px 20px;
+  padding: 5px 10px 5px 10px;
   font-family: 'auroregular', Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
   font-size: 14px;
   text-align: justify;
@@ -1478,8 +1510,8 @@ margin-right: 2%;
   width: 100%;
 }
 .lequipe{
-  width: 85%;
-  margin: 7.5% 7.5% 7.5% 7.5%;
+  width: 90%;
+  margin: 5%;
 }
 .lequipe2{
   width: 96%;
@@ -1497,8 +1529,8 @@ margin-right: 2%;
 }
 .flexi{
   display: flex;
-  margin-left: 12%;
-  margin-right: 12%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .rey1{
   width: 30%;
@@ -1507,6 +1539,10 @@ margin-right: 2%;
 .rey2{
   width: 70%;
   padding: 10px;
+}
+.reyfoto{
+  width: 80%;
+  padding: 5px;
 }
 .imgabc{
   width: 98%;
@@ -1573,7 +1609,7 @@ width: 28%;
   background-color: #d7dde1;
   height: fit-content;
   width: 100%;
-  margin: 7% 5% 0% 5%;
+  margin: 7% 3% 0% 3%;
   border-radius: 20px 20px;
 }
 
@@ -1591,7 +1627,7 @@ width: 28%;
 .imgservice{
   float: right;
   height: auto;
-  width: 65%;
+  width: 61%;
   margin-left: 25px;
   z-index: 2;
   border-top-right-radius: 20px 20px;
@@ -1599,7 +1635,7 @@ width: 28%;
 }
 .textinser{
   text-align: left;
-  margin: 6%;
+  margin: 4%;
   color: #052D4B;
   font-family: 'auroregular', Lato, Merriweather, 'Helvetica Neue', Arial, sans-serif;
   font-size: 26px;
@@ -1757,7 +1793,7 @@ height:fit-content;
     width:100%;
   }
 }
-@media (max-width: 1250px) and (min-width: 878px){
+@media (max-width: 1350px) and (min-width: 878px){
   .frase{
     font-size: 3rem;
   }
@@ -2033,6 +2069,16 @@ label {
 .equipi{
 width: 47.5%;
 }
+  .fichas_equipo{
+    text-align: left;
+    max-width: 100%;
+    height: 750px;
+  }
+  .fichas_chicas{
+    text-align: left;
+    max-width: 100%;
+    height: 690px;
+  }
   .equipi3{
     width: 48%;
   }
@@ -2047,6 +2093,16 @@ width: 47.5%;
   .divinoright4{
     height: fit-content;
     text-align: center;
+  }
+  .fichas_equipo{
+    text-align: left;
+    max-width: 100%;
+    height: fit-content;
+  }
+  .fichas_chicas{
+    text-align: left;
+    max-width: 100%;
+    height: fit-content;
   }
 }
 @media only screen and (max-width: 950px) and (min-width: 525px){
@@ -2181,6 +2237,10 @@ position: relative;
     width: 100%;
     grid-row: 1;
   }
+  .reyfoto{
+    width: 100%;
+    grid-row: 1;
+  }
   .txt1{
     padding-top: 20px;
   }
@@ -2269,3 +2329,150 @@ position: relative;
   }
 }
 
+.tipos_obras{
+  float: left;
+  width: 23%;
+  margin: 5%;
+}
+.imagenesobras{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border-width: 5px;
+  border-style: hidden;
+}
+
+.tipos_obras:hover{
+
+
+}
+
+.imagenesobras:hover{
+  border-style: solid;
+}
+
+.constructora{
+  border-color: green;
+}
+
+.desarrollos{
+  border-color: #ffbf4e;
+}
+
+.casas{
+  border-color: #052D4B;
+}
+
+
+.letra_obras{
+  color: #052D4B;
+  font-weight: 500;
+  font-family: 'auroregular', Lato, Merriweather, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 50px;
+
+}
+
+.letra_qr{
+  width: 30%;
+  padding: 2%;
+  position: absolute;
+  bottom: 55%;
+  left: 47%;
+
+}
+
+.foto_qr{
+  width: 28%;
+  padding: 2%;
+  position: absolute;
+  top: 28%;
+  left: 60%;
+}
+
+
+@media (max-width: 1170px) and (min-width: 850px) {
+  .letra_qr{
+    width: 30%;
+    padding: 2%;
+    position: absolute;
+    bottom: 55%;
+    left: 53%;
+
+  }
+
+  .foto_qr{
+    width: 28%;
+    padding: 2%;
+    position: absolute;
+    top: 28%;
+    left: 65%;
+  }
+}
+
+
+@media (max-width: 849px) and (min-width: 576px) {
+  .letra_qr{
+    width: 30%;
+    padding: 2%;
+    position: absolute;
+    bottom: 57%;
+    left: 46%;
+
+  }
+
+  .foto_qr{
+    width: 28%;
+    padding: 2%;
+    position: absolute;
+    top: 30%;
+    left: 65%;
+  }
+}
+
+@media (max-width: 575px){
+  .letra_qr{
+    width: 30%;
+    padding: 2%;
+    position: absolute;
+    bottom: 74%;
+    left: 106%;
+
+  }
+
+  .foto_qr{
+    width: 50%;
+    padding: 2%;
+    position: absolute;
+    top: 14%;
+    left: 117%;
+  }
+  .lista{
+    width: 100%;
+    margin-left: 10%;
+  }
+}
+
+
+@media (max-width: 950px) and (min-width: 576px){
+  .lista{
+    width: 70%;
+  }
+}
+
+
+@media (max-width: 1000px) and (min-width: 576px){
+  .tipos_obras{
+    float: left;
+    width: 40%;
+    margin: 10% 5% 7% 5%;
+  }
+}
+@media (max-width: 575px){
+  .tipos_obras{
+    float: left;
+    width: 85%;
+    margin: 12% 7.5% 12% 7.5%;
+  }
+}
