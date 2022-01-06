@@ -449,7 +449,7 @@ header.masthead p {
 }
 .tipos_cdc{
   font-weight: bold;
-  font-family: 'auroregular', Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Ubuntu', 'auroregular', Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
   color: #052D4B;
   font-size: 2em;
   text-align: center;
@@ -2336,7 +2336,7 @@ position: relative;
 }
 .imagenesobras{
   width: 100%;
-  height: 100%;
+  height: 90%;
   border-radius: 50%;
   border-width: 5px;
   border-style: hidden;
