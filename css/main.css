@@ -1233,7 +1233,7 @@ position: relative;
 .lista{
     text-align: left;
     margin-top: 15%;
-  margin-left: 15%;
+  padding-left: 15%;
   font-family: 'auroregular', Lato;
   width: 100%;
 }
@@ -2027,7 +2027,29 @@ height:fit-content;
     left: 0px;
   }
 }
-@media (max-width: 439.9px){
+@media (max-width: 439.9px) and (min-width: 390px){
+  .frase{
+    font-size: 1.6rem;
+  }
+  .fressi{
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    margin: auto;
+  }
+  .first-phrase{
+    position: relative;
+    left: 17%;
+    top: 0px;
+  }
+  .second-phrase{
+    position: relative;
+    top: 350px;
+    right: 20%;
+  }
+
+}
+@media (max-width: 390px){
   .frase{
     font-size: 1.6rem;
   }
@@ -2044,31 +2066,9 @@ height:fit-content;
   }
   .second-phrase{
     position: relative;
-    top: 290px;
+    top: 320px;
   }
-  .imgfras{
-    width: 30%;
-    height: auto;
-    margin-right: 5%;
-    margin-left: 5%;
-    position: relative;
-    bottom: 5px;
-    border-radius: 50%;
-  }
-  .imgfras12{
-    width: 30%;
-    height: auto;
-    margin-left: 5%;
-    margin-right: 5%;
-    position: relative;
-    bottom: 0px;
-    border-radius: 50%;
-  }
-  .underphrase{
-    position: relative;
-    top: 20px;
-    left: 0px;
-  }
+
 }
 
 .nav {
@@ -2641,11 +2641,10 @@ position: relative;
     padding: 2%;
     position: absolute;
     top: 14%;
-    left: 117%;
+    left: 17%;
   }
   .lista{
-    width: 100%;
-    margin-left: 10%;
+    width: 90%;
   }
 }
 
