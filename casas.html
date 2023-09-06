@@ -12,7 +12,6 @@
 
     <!-- Bootstrap core CSS -->
     <link rel="shortcut icon" type="image/x-icon" href="./img/favicon1.ico">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
@@ -23,8 +22,11 @@
 
     <!-- Plugin CSS -->
 
-    <!-- Custom styles for this template -->
+    <!-- Custom styles for this template-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link href="css/main.css" rel="stylesheet">
+
+
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-4CJRSNG103"></script>
@@ -56,7 +58,7 @@
 </div>
 
 <div class="loguito" style="position: fixed;bottom: 1%;right: 5px; width: 50px; height: auto; z-index: 100">
-    <a href="https://api.whatsapp.com/send/?phone=5493513934380" target="_blank">
+    <a href="https://api.whatsapp.com/send/?phone=5493513934377" target="_blank">
         <img src="./img/logo_whatsapp.jpg" style="width: 100%; height: auto; border-radius: 50%"></a>
 </div>
 <div style="position: fixed;bottom: 1%;right: 60px; width: 50px; height: auto; z-index: 100">
@@ -65,199 +67,370 @@
 </div>
 
 
-<section style="padding-bottom: 90px">
-    <div class="headings" style="margin-bottom: 15px;margin-top: 50px">Casas</div>
+<section style="padding-top: 2rem; padding-bottom: 6rem">
+    <div class="headings" style="padding-top: 40px; margin-top: 50px">Casas</div>
+    <div style="height:fit-content;display:flex;flex-wrap: wrap;">
+        <div class="carrusel-max compu">
+            <div class="tipos_cdc" style="margin: 2%">En Proceso</div>
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col">
+                                <a href="AntiguaEstancia.html">
+                                    <div class="wrap-car" style="background: url('img/casas-antiguaestancia1-min.jpg'); background-size: cover; background-position: center;">
+                                        <div class="wrap-texto">
+                                            <div style="background-color: rgba(0, 0, 0, 0.4);">
+                                                <p style="margin-bottom: 0%; padding: 1% 10%">ANTIGUA ESTANCIA</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a href="ViviendaCerroPelado.html">
+                                    <div class="wrap-car" style="background: url('./img/casas-cerropelado1-min.JPG'); background-size: cover; background-position: center;">
+                                        <div class="wrap-texto">
+                                            <div style="background-color: rgba(0, 0, 0, 0.4);">
+                                                <p style="margin-bottom: 0%; padding: 1% 10%">CERRO PELADO</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a href="ViviendaChacras.html">
+                                    <div class="wrap-car" style="background: url('./img/casas-chacras3-min.jpg'); background-size: cover; background-position: center;">
+                                        <div class="wrap-texto">
+                                            <div style="background-color: rgba(0, 0, 0, 0.4);">
+                                                <p style="margin-bottom: 0%; padding: 1% 10%">CHACRAS</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
 
-    <div class="bg-dark" id="portfolio-video">
-        <div class="container2" style="background-color: #e8e8e8">
-            <div class="row">
-                <div class="flip-box column imagenes">
-                    <div class="flip-box-inner">
-                        <div style="background: url('./img/CORZUELAS%20RENDER.jpg'); background-size: cover; no-repeat;" class="flip-box-front"><div class="centered"></div>
-                        </div>
-                        <div style="background: url('./img/CORZUELAS%20RENDER.jpg'); background-size: cover; no-repeat;" class="flip-box-back">
-                            <a href="ViviendaCorzuelas.html"><div class="text-block2">
-                                <p class="centered2">LAS CORZUELAS</p>
-                            </div></a>
-                        </div>
-                    </div>
                 </div>
-                <div class="flip-box column imagenes">
-                    <div class="flip-box-inner">
-                        <div style="background: url('./img/QUI6.JPG'); background-size: cover; no-repeat;" class="flip-box-front"><div class="centered"></div>
-                        </div>
-                        <div style="background: url('./img/QUI6.JPG'); background-size: cover; no-repeat;" class="flip-box-back">
-                            <a href="ViviendaQuintas.html"><div class="text-block2">
-                                <p class="centered2">QUINTAS DE ITALIA</p>
-                            </div></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="flip-box column imagenes">
-                    <div class="flip-box-inner">
-                        <div  style="background: url('./img/CAN5.JPG'); background-size: cover; no-repeat;" class="flip-box-front"><div class="centered"></div>
-                        </div>
-                        <div  style="background: url('./img/CAN5.JPG'); background-size: cover; no-repeat;" class="flip-box-back">
-                            <a href="ViviendaCanuelas.html"><div class="text-block2">
-                                <p class="centered2">CAÑUELAS</p>
-                            </div></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="flip-box column imagenes">
-                    <div class="flip-box-inner">
-                        <div  style="background: url('./img/CHA4.jpg'); background-size: cover; no-repeat;" class="flip-box-front"><div class="centered"></div>
-                        </div>
-                        <div style="background: url('./img/CHA4.jpg'); background-size: cover; no-repeat;" class="flip-box-back">
-                            <a href="ViviendaChacras.html"><div class="text-block2">
-                                <p class="centered2">CHACRAS DE LA VILLA</p>
-                            </div></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="flip-box column imagenes">
-                    <div class="flip-box-inner">
-                        <div style="background: url('./img/CP4.jpeg'); background-size: cover; no-repeat;" class="flip-box-front"><div class="centered"></div>
-                        </div>
-                        <div style="background: url('./img/CP4.jpeg'); background-size: cover; no-repeat;" class="flip-box-back">
-                            <a href="ViviendaCerroPelado.html"><div class="text-block2">
-                                <p class="centered2">CERRO PELADO</p>
-                            </div></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="flip-box column imagenes">
-                    <div class="flip-box-inner">
-                        <div style="background: url('./img/SC3.JPG'); background-size: cover; no-repeat;" class="flip-box-front"><div class="centered"></div>
-                        </div>
-                        <div style="background: url('./img/SC3.JPG'); background-size: cover; no-repeat;" class="flip-box-back">
-                            <a href="ViviendaSanClemente.html"><div class="text-block2">
-                                <p class="centered2">SAN CLEMENTE</p>
-                            </div></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="flip-box column imagenes">
-                    <div class="flip-box-inner">
-                        <div style="background: url('./img/Cascada1_29-6.JPG'); background-size: cover; no-repeat;" class="flip-box-front"><div class="centered"></div>
-                        </div>
-                        <div style="background: url('./img/Cascada1_29-6.JPG'); background-size: cover; no-repeat;" class="flip-box-back">
-                            <a href="ViviendaLaCascada.html"><div class="text-block2">
-                                <p class="centered2">LA CASCADA</p>
-                            </div></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="flip-box column imagenes">
-                    <div class="flip-box-inner">
-                        <div style="background: url('./img/DUPLAS3-min.JPG'); background-size: cover; no-repeat;" class="flip-box-front"><div class="centered"></div>
-                        </div>
-                        <div style="background: url('./img/DUPLAS3-min.JPG'); background-size: cover; no-repeat;" class="flip-box-back">
-                            <a href="DuplasLomas.html"><div class="text-block2">
-                                <p class="centered2">DUPLAS <br>LOMAS</p>
-                            </div></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="flip-box column imagenes">
-                    <div class="flip-box-inner">
-                        <div style="background: url('./img/DJI_0817-min.JPG'); background-size: cover; no-repeat;" class="flip-box-front"><div class="centered"></div>
-                        </div>
-                        <div style="background: url('./img/DJI_0817-min.JPG'); background-size: cover; no-repeat;" class="flip-box-back">
-                            <a href="ViviendaSancle.html"><div class="text-block2">
-                                <p class="centered2">SAN CLEMENTE</p>
-                            </div></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="flip-box column imagenes">
-                    <div class="flip-box-inner">
-                        <div style="background: url('./img/HEREDADES%20TERMINADA-min.jpg'); background-size: cover; no-repeat;" class="flip-box-front"><div class="centered"></div>
-                        </div>
-                        <div style="background: url('./img/HEREDADES%20TERMINADA-min.jpg'); background-size: cover; no-repeat;" class="flip-box-back">
-                            <a href="ViviendaHeredades.html"><div class="text-block2">
-                                <p class="centered2">HEREDADES</p>
-                            </div></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="flip-box column imagenes">
-                    <div class="flip-box-inner">
-                        <div style="background: url('./img/VERANDA%20TERMINADA.jpg'); background-size: cover; no-repeat;" class="flip-box-front"><div class="centered"></div>
-                        </div>
-                        <div style="background: url('./img/VERANDA%20TERMINADA.jpg'); background-size: cover; no-repeat;" class="flip-box-back">
-                            <a href="ViviendaVerandas.html"><div class="text-block2">
-                                <p class="centered2">VERANDAS</p>
-                            </div></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="flip-box column imagenes">
-                    <div class="flip-box-inner">
-                        <div style="background: url('./img/L1.jpg'); background-size: cover; no-repeat;" class="flip-box-front"><div class="centered"></div>
-                        </div>
-                        <div style="background: url('./img/L1.jpg'); background-size: cover; no-repeat;" class="flip-box-back">
-                            <a href="AntiguaEstancia.html"><div class="text-block2">
-                                <p class="centered2">ANTIGUA<br> ESTANCIA</p>
-                            </div></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="flip-box column imagenes">
-                    <div class="flip-box-inner">
-                        <div style="background: url('./img/image117.png'); background-size: cover; no-repeat;" class="flip-box-front"><div class="centered"></div>
-                        </div>
-                        <div style="background: url('./img/image117.png'); background-size: cover; no-repeat;" class="flip-box-back">
-                            <a href=""><div class="text-block2">
-                                <p class="centered2">ALTOS DE <br>MANANTIALES</p>
-                            </div></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="flip-box column imagenes">
-                <div class="flip-box-inner">
-                    <div style="background: url('./img/image113.png'); background-size: cover; no-repeat;" class="flip-box-front"><div class="centered"></div>
-                    </div>
-                    <div style="background: url('./img/image113.png'); background-size: cover; no-repeat;" class="flip-box-back">
-                        <a href=""><div class="text-block2">
-                            <p class="centered2">MANANTIALES <br>COUNTRY</p>
-                        </div></a>
-                    </div>
-                </div>
-            </div>
-                <div class="flip-box column imagenes">
-                    <div class="flip-box-inner">
-                        <div style="background: url('./img/Diapositiva1.PNG'); background-size: cover; no-repeat;" class="flip-box-front"><div class="centered"></div>
-                        </div>
-                        <div style="background: url('./img/Diapositiva1.PNG'); background-size: cover; no-repeat;" class="flip-box-back">
-                            <a href=""><div class="text-block2">
-                                <p class="centered2">DUPLAS <br>RIBERAS DE MANANTIALES</p>
-                            </div></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="flip-box column imagenes">
-                    <div class="flip-box-inner">
-                        <div style="background: url('./img/image115.png'); background-size: cover; no-repeat;" class="flip-box-front"><div class="centered"></div>
-                        </div>
-                        <div style="background: url('./img/image115.png'); background-size: cover; no-repeat;" class="flip-box-back">
-                            <a href=""><div class="text-block2">
-                                <p class="centered2">INTROVA <br>ECOHOUSING</p>
-                            </div></a>
-                        </div>
-                    </div>
-                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" style="width: 5rem!important; height: 5rem!important;" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </div>
+        <div class="carrusel-max celu">
+            <div class="tipos_cdc" style="margin: 2%">En Proceso</div>
+            <div id="carouselExampleIndicators3" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="AntiguaEstancia.html">
+                            <div class="wrap-car" style="background: url('img/casas-antiguaestancia1-min.jpg'); background-size: cover; background-position: center;">
+                                <div class="wrap-texto">
+                                    <div style="background-color: rgba(0, 0, 0, 0.4);">
+                                        <p style="margin-bottom: 0%; padding: 1% 10%">ANTIGUA ESTANCIA</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="carousel-item">
+                        <a href="ViviendaCerroPelado.html">
+                            <div class="wrap-car" style="background: url('./img/casas-cerropelado1-min.JPG'); background-size: cover; background-position: center;">
+                                <div class="wrap-texto">
+                                    <div style="background-color: rgba(0, 0, 0, 0.4);">
+                                        <p style="margin-bottom: 0%; padding: 1% 10%">CERRO PELADO</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="ViviendaChacras.html">
+                            <div class="wrap-car" style="background: url('./img/casas-chacras3-min.jpg'); background-size: cover; background-position: center;">
+                                <div class="wrap-texto">
+                                    <div style="background-color: rgba(0, 0, 0, 0.4);">
+                                        <p style="margin-bottom: 0%; padding: 1% 10%">CHACRAS</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" style="width: 5rem!important; height: 5rem!important;" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="carrusel-max compu">
+            <div class="tipos_cdc" style="margin: 2%">Terminadas</div>
+                <div id="carouselExampleIndicators2" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col">
+                                <a href="ViviendaSancle.html">
+                                    <div class="wrap-car" style="background: url('./img/DJI_0817-min.JPG'); background-size: cover; background-position: center;">
+                                        <div class="wrap-texto">
+                                            <div style="background-color: rgba(0, 0, 0, 0.4);">
+                                                <p style="margin-bottom: 0%; padding: 1% 10%">SAN CLEMENTE</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a href="ViviendaCanuelas.html">
+                                    <div class="wrap-car" style="background: url('./img/CAN5.JPG'); background-size: cover; background-position: center;">
+                                        <div class="wrap-texto">
+                                            <div style="background-color: rgba(0, 0, 0, 0.4);">
+                                                <p style="margin-bottom: 0%; padding: 1% 10%">CAÑUELAS</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a href="DuplasLomas.html">
+                                    <div class="wrap-car" style="background: url('./img/DUPLAS3-min.JPG'); background-size: cover; background-position: center;">
+                                        <div class="wrap-texto">
+                                            <div style="background-color: rgba(0, 0, 0, 0.4);">
+                                                <p style="margin-bottom: 0%; padding: 1% 10%">DUPLAS LOMAS</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col">
+                                <a href="ViviendaLaCascada.html">
+                                    <div class="wrap-car" style="background: url('./img/Cascada1_29-6.JPG'); background-size: cover; background-position: center;">
+                                        <div class="wrap-texto">
+                                            <div style="background-color: rgba(0, 0, 0, 0.4);">
+                                                <p style="margin-bottom: 0%; padding: 1% 10%">LA CASCADA</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a href="ViviendaVerandas.html">
+                                    <div class="wrap-car" style="background: url('./img/VERANDA%20TERMINADA.jpg'); background-size: cover; background-position: center;">
+                                        <div class="wrap-texto">
+                                            <div style="background-color: rgba(0, 0, 0, 0.4);">
+                                                <p style="margin-bottom: 0%; padding: 1% 10%">VERANDAS</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a href="ViviendaCorzuelas.html">
+                                    <div class="wrap-car" style="background: url('./img/casas-corzuelas1-min.jpg'); background-size: cover; background-position: center;">
+                                        <div class="wrap-texto">
+                                            <div style="background-color: rgba(0, 0, 0, 0.4);">
+                                                <p style="margin-bottom: 0%; padding: 1% 10%">CORZUELAS</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col">
+                                <a href="ViviendaQuintas.html">
+                                    <div class="wrap-car" style="background: url('./img/casas-quintasdeitalia-min.JPG'); background-size: cover; background-position: center;">
+                                        <div class="wrap-texto">
+                                            <div style="background-color: rgba(0, 0, 0, 0.4);">
+                                                <p style="margin-bottom: 0%; padding: 1% 10%">QUINTAS DE ITALIA</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a href="ViviendaHeredades.html">
+                                    <div class="wrap-car" style="background: url('./img/HEREDADES%20TERMINADA-min.jpg'); background-size: cover; background-position: center;">
+                                        <div class="wrap-texto">
+                                            <div style="background-color: rgba(0, 0, 0, 0.4);">
+                                                <p style="margin-bottom: 0%; padding: 1% 10%">HEREDADES</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a href="ViviendaSanClemente.html">
+                                    <div class="wrap-car" style="background: url('./img/casas-sancle-steel3-min.jpg'); background-size: cover; background-position: center;">
+                                        <div class="wrap-texto">
+                                            <div style="background-color: rgba(0, 0, 0, 0.4);">
+                                                <p style="margin-bottom: 0%; padding: 1% 10%">SAN CLEMENTE</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" style="width: 5rem!important; height: 5rem!important;" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+            <div class="carrusel-max celu">
+                <div class="tipos_cdc" style="margin: 2%">Terminadas</div>
+            <div id="carouselExampleIndicators4" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="ViviendaSancle.html">
+                            <div class="wrap-car" style="background: url('./img/DJI_0817-min.JPG'); background-size: cover; background-position: center;">
+                                <div class="wrap-texto">
+                                    <div style="background-color: rgba(0, 0, 0, 0.4);">
+                                        <p style="margin-bottom: 0%; padding: 1% 10%">SAN CLEMENTE</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="ViviendaCanuelas.html">
+                            <div class="wrap-car" style="background: url('./img/CAN5.JPG'); background-size: cover; background-position: center;">
+                                <div class="wrap-texto">
+                                    <div style="background-color: rgba(0, 0, 0, 0.4);">
+                                        <p style="margin-bottom: 0%; padding: 1% 10%">CAÑUELAS</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="DuplasLomas.html">
+                            <div class="wrap-car" style="background: url('./img/DUPLAS3-min.JPG'); background-size: cover; background-position: center;">
+                                <div class="wrap-texto">
+                                    <div style="background-color: rgba(0, 0, 0, 0.4);">
+                                        <p style="margin-bottom: 0%; padding: 1% 10%">DUPLAS LOMAS</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="ViviendaLaCascada.html">
+                            <div class="wrap-car" style="background: url('./img/Cascada1_29-6.JPG'); background-size: cover; background-position: center;">
+                                <div class="wrap-texto">
+                                    <div style="background-color: rgba(0, 0, 0, 0.4);">
+                                        <p style="margin-bottom: 0%; padding: 1% 10%">LA CASCADA</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="ViviendaVerandas.html">
+                            <div class="wrap-car" style="background: url('./img/VERANDA%20TERMINADA.jpg'); background-size: cover; background-position: center;">
+                                <div class="wrap-texto">
+                                    <div style="background-color: rgba(0, 0, 0, 0.4);">
+                                        <p style="margin-bottom: 0%; padding: 1% 10%">VERANDAS</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="ViviendaCorzuelas.html">
+                            <div class="wrap-car" style="background: url('./img/casas-corzuelas1-min.jpg'); background-size: cover; background-position: center;">
+                                <div class="wrap-texto">
+                                    <div style="background-color: rgba(0, 0, 0, 0.4);">
+                                        <p style="margin-bottom: 0%; padding: 1% 10%">CORZUELAS</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div><div class="carousel-item">
+                    <a href="ViviendaQuintas.html">
+                        <div class="wrap-car" style="background: url('./img/casas-quintasdeitalia-min.JPG'); background-size: cover; background-position: center;">
+                            <div class="wrap-texto">
+                                <div style="background-color: rgba(0, 0, 0, 0.4);">
+                                    <p style="margin-bottom: 0%; padding: 1% 10%">QUINTAS DE ITALIA</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                    <div class="carousel-item">
+                        <a href="ViviendaHeredades.html">
+                            <div class="wrap-car" style="background: url('./img/HEREDADES%20TERMINADA-min.jpg'); background-size: cover; background-position: center;">
+                                <div class="wrap-texto">
+                                    <div style="background-color: rgba(0, 0, 0, 0.4);">
+                                        <p style="margin-bottom: 0%; padding: 1% 10%">HEREDADES</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="ViviendaSanClemente.html">
+                            <div class="wrap-car" style="background: url('./img/casas-sancle-steel3-min.jpg'); background-size: cover; background-position: center;">
+                                <div class="wrap-texto">
+                                    <div style="background-color: rgba(0, 0, 0, 0.4);">
+                                        <p style="margin-bottom: 0%; padding: 1% 10%">SAN CLEMENTE</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" style="width: 5rem!important; height: 5rem!important;" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            </div>
+        </div>
+
 </section>
-
-
 
 
 <footer class="footer">
     <div style="background-color: #006a00; width:100%; height: 10px"></div>
     <div class="container">
-        <div class="row row-cols-4">
+        <div class="row">
             <div class="row">
 
                 <div class="col-sm jujuy ">
@@ -270,15 +443,15 @@
                 </div>
                 <div class="col-sm jujuy">
                     <ul style="list-style-type:none; line-height: 3em" class="lista">
-                        <li> <a href="tel: 351 393 4377"><div style="margin: 5% 10% 5% 20%; line-height: 1.5em; color: rgba(255, 255, 255, 0.86);"><div style="margin-right: 3%; float: left"> <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-telephone-inbound-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <li> <a href="tel: 351 393 4377"><div style="margin: 5% 10% 5% 20%; line-height: 1.5em; color: rgba(255,255,255,0.86);"><div style="margin-right: 3%; float: left"> <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-telephone-inbound-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zM15.854.146a.5.5 0 0 1 0 .708L11.707 5H14.5a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 1 0v2.793L15.146.146a.5.5 0 0 1 .708 0z"/>
                         </svg></div>+54 9 351 393 4377</div></a></li>
                         <li><a href="mailto:info@grupo-denovo.com">
-                            <div style="margin: 3% 10% 5% 20%; line-height: 1.5em;color: rgba(255, 255, 255, 0.86);">
+                            <div style="margin: 3% 10% 5% 20%; line-height: 1.5em ; color: rgba(255, 255, 255, 0.86);">
                                 <div style="margin-right: 3%; float: left"><svg  width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-envelope" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
                                 </svg></div>info@grupo-denovo.com</div></a></li>
-                        <li><div style="margin: 3% 5% 5% 20%; line-height: 1.5em;color: rgba(255, 255, 255, 0.86);">
+                        <li><div style="margin: 3% 5% 5% 20%; line-height: 1.5em; color: rgba(255, 255, 255, 0.86);">
                             <div>Miralejos Torre 1 piso 5</div>
                             <div>Parque empresarial Aeropuerto</div>
                             <div>Av. La voz del Interior 8821, Córdoba</div></div>
@@ -298,5 +471,6 @@
 
 
 
-
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
 </html>

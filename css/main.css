@@ -308,11 +308,11 @@ header.masthead p {
 }
 
 .btn {
-  font-weight: 700;
+  font-size: 24px;
+  font-weight: 500;
   border: none;
-  border-radius: 300px;
-  font-family: Lato, 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-  color: white;
+  font-family: 'auroregular', Lato, 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  color: whitesmoke;
 }
 
 .btn-xl {
@@ -320,13 +320,13 @@ header.masthead p {
 }
 
 .btn-primary {
-  background-color: #FF9900;
-  border-color: #FF9900;
+  background-color: #052D4B;
+  border-color: #052D4B;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  color: #fff;
-  background-color: #ee4b28 !important;
+  color: whitesmoke;
+  background-color: #032034 !important;
 }
 
 .btn-primary:active, .btn-primary:focus {
@@ -468,6 +468,10 @@ header.masthead p {
   font-size: 2em;
   text-align: center;
 }
+.consproc{
+  width: 40%;
+  margin: 5%;
+}
 .headed{
   text-align: left;
   margin-left: 15%;
@@ -485,6 +489,43 @@ header.masthead p {
   background-color: #052D4B;
   color: #e8e8e8;
 }
+.wrap{
+  width: 100%;
+  height: 700px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.wrap-texto{
+  color: whitesmoke;
+  text-align: center;
+  width: 100%;
+  font-size: 24px;
+  font-family: 'auroregular', Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  text-decoration: underline #323232
+}
+.wrap-texto-cf{
+  color: whitesmoke;
+  text-align: center;
+  width: 100%;
+  font-size: 24px;
+  font-family: 'auroregular', Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+}
+.wrap-car{
+  width: 100%;
+  height: 270px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.wrap-cartp{
+  width: 100%;
+  height: 450px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
 .fff{
 position: relative;
   top: 50px;
@@ -493,18 +534,29 @@ position: relative;
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
   float: left;
-  width: 25%;
+  width: 100%;
   margin: 0px;
 }
-
-
-.columncons{
-  float: left;
-  width: 32%;
-  margin: 1.3% 0% 0% 1.3%;
+.logo-cf{
+  width: 30%;
+  margin: 1% 35%;
+}
+.logo-ie{
+  width: 30%;
+margin: 4% 35% 26% 35%;
+}
+.columnconsbig{
+  width: 33.3%;
+}
+.columnconssmall{
+  width: 25%;
 }
 .imagenes{
   height: 270px;
+  display: block;
+}
+.imagenes-cf{
+  height: 350px;
   display: block;
 }
 .consdescas{
@@ -518,6 +570,11 @@ position: relative;
   float: left;
   width: 31.7%;
   margin: 0.7%;
+}
+.column_cf {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
 }
 /* Clear floats after image containers */
 .row::after {
@@ -592,6 +649,13 @@ position: relative;
   z-index: -1;
   transition: all .2s ease-in-out;
 }
+.interior_obras_cf{
+  background-size: cover;
+  height: 350px;
+  color: black;
+  z-index: -1;
+  transition: all .2s ease-in-out;
+}
 .interior_feed{
   background-size: cover;
   height: 270px;
@@ -599,7 +663,24 @@ position: relative;
   z-index: -1;
   transition: all .2s ease-in-out;
 }
+.center-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'auroregular', Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+
+}
+.center-button button {
+  padding: 6px;
+  font-size: 20px;
+  font-family: 'auroregular', Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+}
 .escondido{
+
+}
+.overflowing{
+  overflow: visible;!important;
 
 }
 .interior_obrasesp{
@@ -619,6 +700,11 @@ position: relative;
   z-index: 99;
 }
 .interior_obras:hover{
+  background-size: contain;!important;
+  transform: scale(1.7);
+  z-index: 99;
+}
+.interior_obras_cf:hover{
   background-size: contain;!important;
   transform: scale(1.7);
   z-index: 99;
@@ -953,11 +1039,10 @@ animation-timing-function: ease-in-out;
   font-family: 'auroregular', Lato;
 }
 .cuchuflo{
-  background-color: #e0e0e0;
   height: fit-content;
-  margin-left: 7%;
-  margin-right: 7%;
-  width: 86%;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
   display: flex;
 }
 .imgdrch{
@@ -969,6 +1054,10 @@ animation-timing-function: ease-in-out;
   height: auto;
   width: 50%;
   margin: 2% 2% 2% 2%;
+}
+.plano-introva{
+  width: 74%;
+  margin: 3% 13%;
 }
 .txt1{
   font-size: 20px;
@@ -1000,6 +1089,45 @@ animation-timing-function: ease-in-out;
   top: 15%;
   font-family: 'auroregular', Lato;
   color: #052D4B;
+}
+.txt-cf{
+  font-size: 24px;
+  text-align: center;
+  margin-left: 1.5%;
+  margin-right: 2.5%;
+  width: 96%;
+  font-family: 'auroregular', Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  color: #685C57;
+}
+.frase-cf{
+  font-size: 30px;
+  font-style: italic;
+  margin-left: 1.5%;
+  margin-right: 2.5%;
+  width: 96%;
+  font-family: 'auroregular', Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  text-align: center;
+  color: #685C57;
+}
+.barrita-cf{
+  font-size: 30px;
+  font-style: italic;
+  margin: 5% 0%;
+  padding: 3%;
+  width: 100%;
+  font-family: 'auroregular', Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  text-align: center;
+  background-color: #685C57;
+  color: #e8e8e8;
+}
+.headings-cf{
+  font-weight: bold;
+  font-family: 'auroregular', Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  color: #947362;
+  font-size: 2.5em;
+  margin-top: 90px;
+  margin-bottom: 10px;
+  text-align: center
 }
 .txt2-2{
   font-size: 18px;
@@ -1237,6 +1365,14 @@ position: relative;
   font-family: 'auroregular', Lato;
   width: 100%;
 }
+.listaobras{
+  text-align: left;
+  margin-top: 3%;
+  padding-left: 5%;
+  font-family: 'auroregular', Lato;
+  width: 100%;
+}
+
 .column2{
     float: left;
     width: 30%;
@@ -1438,6 +1574,10 @@ margin-right: 2%;
   background-color: white;
   color: #052D4B;
 }
+.cardif{
+  width: 22%;
+  margin: 0% 1.5% 1% 1.5%;
+}
 .equipi2{
   width: 23%;
   margin-right: 1%;
@@ -1481,6 +1621,18 @@ margin-right: 2%;
     text-align: center;
     position: relative;
     bottom: 40px;
+}
+.carrusel{
+  width: 48%;
+  margin: 1%;
+}
+.carrusel-max{
+  width: 94%;
+  margin: 1.5% 3%;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  width: 5rem;!important;
+  height: 5rem;!important;
 }
 .text-block2 {
   background-color: rgba(0, 0, 0, 0.4);
@@ -1611,10 +1763,6 @@ margin-right: 2%;
 }
 .textovalores{
   padding: 10% 8% 15% 8%;
-  font-family: 'auroregular', Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
-  font-size: 18px;
-  text-align: center;
-
 }
 .imish{
   border-top-right-radius: 20px 20px;
@@ -1627,6 +1775,10 @@ margin-right: 2%;
 }
 .levalue{
   width: 100%;
+}
+.img-cd{
+  width: 40%;
+  margin: 0% 30%;
 }
 .lequipe2{
   width: 96%;
@@ -1660,7 +1812,7 @@ margin-right: 2%;
   padding: 10px;
 }
 .reyfoto{
-  width: 80%;
+  width: 70%;
   padding: 5px;
 }
 .imgabc{
@@ -1833,9 +1985,14 @@ height:fit-content;
     width: 50%;
     float: left;
   }
-  .columncons{
+  .columnconsbig{
     float: left;
     width: 50%;
+    margin: 0%;
+  }
+  .columnconssmall{
+    float: left;
+    width: 33.3%;
     margin: 0%;
   }
   .holiwis{
@@ -1887,7 +2044,12 @@ height:fit-content;
     width: 100%;
     float: left;
   }
-  .columncons{
+  .columnconsbig{
+    float: left;
+    width: 100%;
+    margin: 0%;
+  }
+  .columnconssmall{
     float: left;
     width: 100%;
     margin: 0%;
@@ -2168,6 +2330,10 @@ label {
     width: 97%;
     margin-bottom: 5%;
   }
+  .logo-cf{
+    width: 50%;
+    margin: 25% 25% 10% 25%;
+  }
 }
 @media only screen and (max-width: 900px) and (min-width: 700px){
   .nav {
@@ -2268,6 +2434,10 @@ label {
     width: 47%;
     margin: 1.5%;
   }
+  .cardif{
+    width: 47%;
+    margin: 1.5%;
+  }
 }
 @media only screen and (max-width: 524px){
     .equipi{
@@ -2289,6 +2459,10 @@ label {
     height: fit-content;
   }
   .valores{
+    width: 90%;
+    margin: 5%;
+  }
+  .cardif{
     width: 90%;
     margin: 5%;
   }
@@ -2460,6 +2634,9 @@ position: relative;
   .interior_obras:hover{
     transform: scale(1.5);
   }
+  .interior_obras_cf:hover{
+    transform: scale(1.5);
+  }
   .izquierda:hover{
     position: relative;
     left: 0%;
@@ -2475,7 +2652,17 @@ position: relative;
     width: 99%;
     margin: 3% 0.4% 3% 0.4%;
   }
+  .column_cf {
+    float: left;
+    width: 99%;
+    margin: 3% 0.4% 3% 0.4%;
+  }
   .interior_obras:hover{
+    background-size: contain;!important;
+    transform: scale(1.3);
+    z-index: 99;
+  }
+  .interior_obras_cf:hover{
     background-size: contain;!important;
     transform: scale(1.3);
     z-index: 99;
@@ -2495,7 +2682,17 @@ position: relative;
     width: 99%;
     margin: 0.4%;
   }
+  .column_cf {
+    float: left;
+    width: 99%;
+    margin: 0.4%;
+  }
   .interior_obras:hover{
+    background-size: contain;!important;
+    transform: scale(1.1);
+    z-index: 99;
+  }
+  .interior_obras_cf:hover{
     background-size: contain;!important;
     transform: scale(1.1);
     z-index: 99;
@@ -2515,20 +2712,39 @@ position: relative;
     z-index: -1;
     transition: all .2s ease-in-out;
   }
+  .interior_obras_cf{
+    background-size: cover;
+    height: 220px;
+    color: black;
+    z-index: -1;
+    transition: all .2s ease-in-out;
+  }
 }
 
 .tipos_obras{
   float: left;
-  width: 33.3%;
-  margin: 3% 0%;
-
+  width: 30.33%;
+  margin: 3% 1.5% 0.5% 1.5%;
+}
+.plantas{
+  float: left;
+  width: 30%;
+  margin: 3% 10% 0.5% 10%;
+}
+.plantasalt{
+  float: left;
+  width: 25.3%;
+  margin: 1% 4% 3% 4%;
 }
 .imagenesobras{
   width: 100%;
   height: auto;
-
   border-width: 5px;
   border-style: hidden;
+}
+.imagenesplantas{
+  width: 100%;
+  height: auto;
 }
 .imagenesequipo{
   width: 100%;
@@ -2604,6 +2820,10 @@ position: relative;
     top: 28%;
     left: 65%;
   }
+  .logo-ie{
+    width: 40%;
+    margin: 2% 30% 28% 30%;
+  }
 }
 
 
@@ -2623,6 +2843,10 @@ position: relative;
     position: absolute;
     top: 30%;
     left: 65%;
+  }
+  .logo-ie{
+    width: 50%;
+    margin: 3% 25% 37% 25%;
   }
 }
 
@@ -2645,6 +2869,10 @@ position: relative;
   }
   .lista{
     width: 90%;
+  }
+  .logo-ie{
+    width: 70%;
+    margin: 4% 15% 40% 15%;
   }
 }
 
@@ -2683,6 +2911,10 @@ position: relative;
     display: block;
     box-sizing: border-box;
   }
+  .carrusel{
+    width: 96%;
+    margin: 2%;
+  }
 }
 
 @media only screen and (max-width: 900px) and (min-width: 650px) {
@@ -2701,5 +2933,42 @@ position: relative;
   .equipi {
     width: 90%;
     margin: 5%;
+  }
+}
+@media only screen and (min-width: 560px) {
+  .celu{
+    display: none;
+
+  }
+  .compu{
+    display: block;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .celu{
+    display: block;
+  }
+  .compu{
+    display: none;
+  }
+  .wrap-cartp{
+    width: 100%;
+    height: 280px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .plantas{
+    float: left;
+    width: 70%;
+    margin: 3% 15% 5% 15%;
+  }
+  .plantasalt{
+    float: left;
+    width: 60%;
+    margin: 3% 20% 5% 20%;
   }
 }

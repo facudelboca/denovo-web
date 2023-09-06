@@ -32,12 +32,9 @@
   init();
   checkPosition();
 
-  document.addEventListener('DOMContentLoaded', function(){
-    let formulario = document.getElementById('my-form');
-    formulario.addEventListener('submit', function() {
-      formulario.reset();
-    });
-  });
+  setTimeout(function() {
+    document.getElementById('my-form').reset();
+  }, 1500);
 
 
 })();
