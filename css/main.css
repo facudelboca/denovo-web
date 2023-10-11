@@ -538,8 +538,8 @@ position: relative;
   margin: 0px;
 }
 .logo-cf{
-  width: 30%;
-  margin: 1% 35%;
+  width: 26%;
+  margin: 1% 37%;
 }
 .logo-ie{
   width: 30%;
@@ -1947,11 +1947,11 @@ width: 28%;
   width: 57.4%;
 }
 #holo{
-    width: 13%;
+    width: 12%;
   height: auto;
     float: left;
     margin-left: 30px;
-    margin-top: 10px;
+    margin-top: 8px;
 }
 .yeno{
     display: none;
@@ -2234,8 +2234,8 @@ height:fit-content;
 }
 
 .nav {
-  height: 66px;
-  line-height: 66px;
+  height: 68px;
+  line-height: 68px;
   background-color: #131B2B;
   position: fixed;
   top: 0px;
@@ -2331,8 +2331,8 @@ label {
     margin-bottom: 5%;
   }
   .logo-cf{
-    width: 50%;
-    margin: 25% 25% 10% 25%;
+    width: 46%;
+    margin: 10% 27% 10% 27%;
   }
 }
 @media only screen and (max-width: 900px) and (min-width: 700px){
@@ -2415,9 +2415,9 @@ label {
 
 @media only screen and (min-width: 900px) and (max-width: 1120px){
    #holo{
-       width: 20%;
+       width: 18%;
        margin-left: 20px;
-       margin-top: 10px;
+       margin-top: 8px;
    }
 }
 @media only screen and (max-width: 900px) and (min-width: 525px){
