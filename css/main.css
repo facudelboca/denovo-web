@@ -308,7 +308,7 @@ header.masthead p {
 }
 
 .btn {
-  font-size: 24px;
+  font-size: 25px;
   font-weight: 500;
   border: none;
   font-family: 'auroregular', Lato, 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
@@ -394,7 +394,7 @@ header.masthead p {
   color: #052D4B;
   font-family: 'auroregular',Lato, Merriweather, 'Helvetica Neue', Arial, sans-serif;
   text-align: center;
-  font-size: 18px;
+  font-size: 19px;
   background-color: #052D4B;
 }
 .juju3{
@@ -413,7 +413,7 @@ header.masthead p {
   color: #052D4B;
   font-family: 'auroregular', Lato, Merriweather, 'Helvetica Neue', Arial, sans-serif;
   text-align: center;
-  font-size: 18px;
+  font-size: 19px;
   margin-left: 5%;
   margin-right: 5%;
 }
@@ -421,7 +421,7 @@ header.masthead p {
   color: #052D4B;
   font-family: 'auroregular', Lato, Merriweather, 'Helvetica Neue', Arial, sans-serif;
   text-align: center;
-  font-size: 18px;
+  font-size: 19px;
 }
 .juju6-2{
   color: #052D4B;
@@ -431,26 +431,26 @@ header.masthead p {
   color: #052D4B;
   font-family: 'auroregular', Lato, Merriweather, 'Helvetica Neue', Arial, sans-serif;
   text-align: center;
-  font-size: 18px;
+  font-size: 19px;
 }
 .letra_mail{
   color: #052D4B;
   font-family: 'auroregular', Lato, Merriweather, 'Helvetica Neue', Arial, sans-serif;
   text-align: left;
-  font-size: 20px;
+  font-size: 21px;
 }
 .headings{
   font-weight: bold;
   font-family: 'auroregular', Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
   color: #052D4B;
-  font-size: 2.5em;
+  font-size: 2.2em;
   text-align: center;
 }
 .titulosequipo{
   font-weight: bold;
   font-family: 'auroregular', Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
   color: #052D4B;
-  font-size: 2.5em;
+  font-size: 2.2em;
   text-align: left;
   padding-left: 10%;
 }
@@ -520,7 +520,7 @@ header.masthead p {
 }
 .wrap-cartp{
   width: 100%;
-  height: 450px;
+  height: 370px;
   display: flex;
   align-items: end;
   justify-content: center;
@@ -669,6 +669,7 @@ margin: 4% 35% 26% 35%;
   justify-content: center;
   align-items: center;
   font-family: 'auroregular', Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 18px;
 
 }
 .center-button button {
@@ -729,7 +730,7 @@ margin: 4% 35% 26% 35%;
 }
 .jujuy {
   color: rgba(255, 255, 255, 0.86);
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 500;
   font-family: 'auroregular', Lato, Merriweather, 'Helvetica Neue', Arial, sans-serif;
 }
@@ -1091,7 +1092,7 @@ animation-timing-function: ease-in-out;
   color: #052D4B;
 }
 .txt-cf{
-  font-size: 24px;
+  font-size: 25px;
   text-align: center;
   margin-left: 1.5%;
   margin-right: 2.5%;
@@ -1112,7 +1113,7 @@ animation-timing-function: ease-in-out;
 .barrita-cf{
   font-size: 30px;
   font-style: italic;
-  margin: 5% 0%;
+  margin: 3% 0%;
   padding: 3%;
   width: 100%;
   font-family: 'auroregular', Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
@@ -1124,9 +1125,9 @@ animation-timing-function: ease-in-out;
   font-weight: bold;
   font-family: 'auroregular', Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
   color: #947362;
-  font-size: 2.5em;
-  margin-top: 90px;
-  margin-bottom: 10px;
+  font-size: 2.2em;
+  margin-top: 60px;
+  margin-bottom: 7px;
   text-align: center
 }
 .txt2-2{
@@ -1369,6 +1370,7 @@ position: relative;
   text-align: left;
   margin-top: 3%;
   padding-left: 5%;
+  font-size: 18px;
   font-family: 'auroregular', Lato;
   width: 100%;
 }
@@ -1741,7 +1743,7 @@ margin-right: 2%;
   padding-left: 22px;
   padding-top: 5px;
   text-align: center;
-  font-size: 19px;
+  font-size: 20px;
  }
 .negrita{
   font-weight: bold;
@@ -1749,7 +1751,7 @@ margin-right: 2%;
 .txtxt2{
   padding: 5px 10px 5px 10px;
   font-family: 'auroregular', Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   text-align: center;
 
 }
@@ -1763,6 +1765,12 @@ margin-right: 2%;
 }
 .textovalores{
   padding: 10% 8% 15% 8%;
+  font-family: 'auroregular', Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  color: #052D4B;
+  font-size: 19px;
+}
+.textovalores-cf{
+  padding: 10% 8% 2% 8%;
 }
 .imish{
   border-top-right-radius: 20px 20px;
@@ -2714,7 +2722,7 @@ position: relative;
   }
   .interior_obras_cf{
     background-size: cover;
-    height: 220px;
+    height: 320px;
     color: black;
     z-index: -1;
     transition: all .2s ease-in-out;
@@ -2729,7 +2737,7 @@ position: relative;
 .plantas{
   float: left;
   width: 30%;
-  margin: 3% 10% 0.5% 10%;
+  margin: 1.5% 10% 0.5% 10%;
 }
 .plantasalt{
   float: left;
@@ -2953,7 +2961,7 @@ position: relative;
   }
   .wrap-cartp{
     width: 100%;
-    height: 280px;
+    height: 270px;
     display: flex;
     align-items: end;
     justify-content: center;
