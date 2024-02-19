@@ -394,7 +394,7 @@ header.masthead p {
   color: #052D4B;
   font-family: 'auroregular',Lato, Merriweather, 'Helvetica Neue', Arial, sans-serif;
   text-align: center;
-  font-size: 19px;
+  font-size: 20px;
   background-color: #052D4B;
 }
 .juju3{
@@ -421,7 +421,7 @@ header.masthead p {
   color: #052D4B;
   font-family: 'auroregular', Lato, Merriweather, 'Helvetica Neue', Arial, sans-serif;
   text-align: center;
-  font-size: 19px;
+  font-size: 20px;
 }
 .juju6-2{
   color: #052D4B;
@@ -431,7 +431,7 @@ header.masthead p {
   color: #052D4B;
   font-family: 'auroregular', Lato, Merriweather, 'Helvetica Neue', Arial, sans-serif;
   text-align: center;
-  font-size: 19px;
+  font-size: 20px;
 }
 .letra_mail{
   color: #052D4B;
@@ -443,14 +443,14 @@ header.masthead p {
   font-weight: bold;
   font-family: 'auroregular', Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
   color: #052D4B;
-  font-size: 2.2em;
+  font-size: 2em;
   text-align: center;
 }
 .titulosequipo{
   font-weight: bold;
   font-family: 'auroregular', Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
   color: #052D4B;
-  font-size: 2.2em;
+  font-size: 1.8em;
   text-align: left;
   padding-left: 10%;
 }
@@ -669,7 +669,7 @@ margin: 4% 35% 26% 35%;
   justify-content: center;
   align-items: center;
   font-family: 'auroregular', Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
-  font-size: 18px;
+  font-size: 19px;
 
 }
 .center-button button {
@@ -923,6 +923,8 @@ animation-timing-function: ease-in-out;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: 'auroregular',Lato, Merriweather, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 19px;
 }
 .divinoleft{
   text-align: left;
@@ -1081,7 +1083,7 @@ animation-timing-function: ease-in-out;
   color: #052D4B;
 }
 .txt2{
-  font-size: 18px;
+  font-size: 19px;
   text-align: justify;
   margin-left: 1.5%;
   margin-right: 2.5%;
@@ -1092,7 +1094,7 @@ animation-timing-function: ease-in-out;
   color: #052D4B;
 }
 .txt-cf{
-  font-size: 25px;
+  font-size: 24px;
   text-align: center;
   margin-left: 1.5%;
   margin-right: 2.5%;
@@ -1125,7 +1127,7 @@ animation-timing-function: ease-in-out;
   font-weight: bold;
   font-family: 'auroregular', Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
   color: #947362;
-  font-size: 2.2em;
+  font-size: 2em;
   margin-top: 60px;
   margin-bottom: 7px;
   text-align: center
@@ -1364,13 +1366,13 @@ position: relative;
     margin-top: 15%;
   padding-left: 15%;
   font-family: 'auroregular', Lato;
-  width: 100%;
+  width: 120%;
 }
 .listaobras{
   text-align: left;
   margin-top: 3%;
   padding-left: 5%;
-  font-size: 18px;
+  font-size: 19px;
   font-family: 'auroregular', Lato;
   width: 100%;
 }
@@ -1739,19 +1741,19 @@ margin-right: 2%;
 }
 .txtxt{
    font-family: 'auroregular', Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
-  padding-right: 22px;
-  padding-left: 22px;
+  padding-right: 10px;
+  padding-left: 10px;
   padding-top: 5px;
   text-align: center;
-  font-size: 20px;
+  font-size: 21px;
  }
 .negrita{
   font-weight: bold;
 }
 .txtxt2{
-  padding: 5px 10px 5px 10px;
+  padding: 1px 10px;
   font-family: 'auroregular', Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
-  font-size: 16px;
+  font-size: 17px;
   text-align: center;
 
 }
@@ -1767,7 +1769,7 @@ margin-right: 2%;
   padding: 10% 8% 15% 8%;
   font-family: 'auroregular', Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
   color: #052D4B;
-  font-size: 19px;
+  font-size: 20px;
 }
 .textovalores-cf{
   padding: 10% 8% 2% 8%;
@@ -2887,7 +2889,7 @@ position: relative;
 
 @media (max-width: 950px) and (min-width: 576px){
   .lista{
-    width: 70%;
+    width: 80%;
   }
 }
 
