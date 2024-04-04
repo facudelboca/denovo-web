@@ -9,7 +9,7 @@ body {
   font-family: Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 hr {
-  max-width: 8%;
+
   border-width: 3px;
   border-color: #007f00;
 }
@@ -25,7 +25,7 @@ a {
 }
 
 a:hover {
-  color: #007f00;
+text-decoration: none;
 }
 
 h1,
@@ -443,7 +443,7 @@ header.masthead p {
   font-weight: bold;
   font-family: 'auroregular', Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
   color: #052D4B;
-  font-size: 2em;
+  font-size: 35px;
   text-align: center;
 }
 .titulosequipo{
@@ -451,8 +451,8 @@ header.masthead p {
   font-family: 'auroregular', Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
   color: #052D4B;
   font-size: 1.8em;
-  text-align: left;
-  padding-left: 10%;
+  text-align: center;
+  padding-top: 20px;
 }
 .headings2{
   font-weight: bold;
@@ -476,9 +476,16 @@ header.masthead p {
   text-align: left;
   margin-left: 15%;
   margin-right: 15%;
-  padding-top: 10px;
   padding-bottom: 10px;
+}
+.linea-verde{
+  max-width: 8%;
+}
 
+.linea-divisoria{
+  text-align: center;
+  margin: 0% 6%;
+  width: 88%;
 }
 .butserv{
   cursor: pointer;
@@ -496,13 +503,56 @@ header.masthead p {
   align-items: end;
   justify-content: center;
 }
+.centrado{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.final{
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
 .wrap-texto{
   color: whitesmoke;
   text-align: center;
   width: 100%;
+    height: 100%;
   font-size: 24px;
   font-family: 'auroregular', Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
-  text-decoration: underline #323232
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+.wrap-texto2{
+  color: whitesmoke;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  font-size: 24px;
+  font-family: 'auroregular', Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+}
+
+.wrap-car:hover .wrap-texto2{
+  opacity: 1;
+  -webkit-transition: opacity 0.3s;
+}
+.wrap-car2:hover .wrap-texto2{
+  opacity: 1;
+  -webkit-transition: opacity 0.3s;
+}
+
+.texto_equipo{
+  color: whitesmoke;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  font-size: 21px;
+  line-height: 22px;
+  padding-bottom: 10px;
+  font-family: 'auroregular', Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 .wrap-texto-cf{
   color: whitesmoke;
@@ -515,7 +565,14 @@ header.masthead p {
   width: 100%;
   height: 270px;
   display: flex;
-  align-items: end;
+  align-items: center;
+  justify-content: center;
+}
+.wrap-car2{
+  width: 100%;
+  height: 350px;
+  display: flex;
+  align-items: center;
   justify-content: center;
 }
 .wrap-cartp{
@@ -536,6 +593,11 @@ position: relative;
   float: left;
   width: 100%;
   margin: 0px;
+}
+.cols-25{
+  float: left;
+  width: 24%;
+  margin: 0.5%;
 }
 .logo-cf{
   width: 26%;
@@ -571,16 +633,35 @@ margin: 4% 35% 26% 35%;
   width: 31.7%;
   margin: 0.7%;
 }
+.column_equipo {
+  float: left;
+  width: 23.7%;
+  margin: 0.6%;
+}
+.column_un {
+  float: left;
+  width: 32%;
+  margin: 0.6%;
+}
 .column_cf {
   float: left;
   width: 45%;
   margin: 2.5%;
+}
+.column_int {
+  float: left;
+  width: 19%;
+  margin: 0.5%;
 }
 /* Clear floats after image containers */
 .row::after {
   content: "";
   clear: both;
   display: table;
+}
+.row{
+  margin-right: 0px;
+  margin-left: 0px;
 }
 .centered {
   justify-content: center;
@@ -669,7 +750,7 @@ margin: 4% 35% 26% 35%;
   justify-content: center;
   align-items: center;
   font-family: 'auroregular', Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
-  font-size: 19px;
+  font-size: 20px;
 
 }
 .center-button button {
@@ -757,9 +838,8 @@ margin: 4% 35% 26% 35%;
 }
 .imich{
   align-content: center;
-  width: 50%;
-  position: relative;
-  top: 65px;
+  width: 40%;
+  padding-top: 10px;
 }
 .leblanc{
   color: white;!important;
@@ -772,7 +852,8 @@ width: 100%;
 }
 .cabeza{
 position: relative;
-height: 650px;
+height: fit-content;
+  padding-bottom: 100px;
 background-image: linear-gradient(#052D4B, #052D4B);
 clip-path: polygon(
 0 0,
@@ -816,8 +897,18 @@ clip-path: polygon(
 .nodisplay{
   display: none;
 }
+
 .displayblock{
   display: block;
+}
+.linea{
+  text-align: center;
+}
+.mensaje{
+  visibility: hidden;
+}
+.mensaje:hover {
+  visibility: visible;
 }
 
 .frase{
@@ -1093,6 +1184,13 @@ animation-timing-function: ease-in-out;
   font-family: 'auroregular', Lato;
   color: #052D4B;
 }
+.txt5{
+  font-size: 20px;
+  text-align: center;
+  padding: 2% 7% 1% 7%;
+  font-family: 'auroregular', Lato;
+  color: #052D4B;
+}
 .txt-cf{
   font-size: 24px;
   text-align: center;
@@ -1115,7 +1213,7 @@ animation-timing-function: ease-in-out;
 .barrita-cf{
   font-size: 30px;
   font-style: italic;
-  margin: 3% 0%;
+  margin: 2% 0%;
   padding: 3%;
   width: 100%;
   font-family: 'auroregular', Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
@@ -1192,12 +1290,11 @@ position: relative;
   background-color: #e0e0e0;
   margin-left: 7%;
   margin-right: 7%;
-  padding-top: 3%;
-  padding-bottom: 4%;
+  padding-top: 1%;
+  padding-bottom: 3%;
 }
 .grisin{
   text-align: left;
-  padding-top: 10px;
   padding-bottom: 10px;
   margin-right: 9%;
   margin-left: 9%;
@@ -1369,10 +1466,9 @@ position: relative;
   width: 120%;
 }
 .listaobras{
-  text-align: left;
-  margin-top: 3%;
-  padding-left: 5%;
-  font-size: 19px;
+  text-align: center;
+  margin-top: 5%;
+  font-size: 20px;
   font-family: 'auroregular', Lato;
   width: 100%;
 }
@@ -1477,8 +1573,7 @@ position: relative;
 .fichasvalores{
   text-align: center;
   max-width: 100%;
-  height: 650px;
-  border-radius: 200px 200px;
+  height: fit-content;
 }
 .fichas_equipo{
   text-align: left;
@@ -1573,9 +1668,8 @@ margin-right: 2%;
   size: cover;
 }
 .valores{
-  width: 22%;
-  margin: 0% 1.5% 1% 1.5%;
-  background-color: white;
+  width: 23%;
+  margin: 1%;
   color: #052D4B;
 }
 .cardif{
@@ -1743,7 +1837,6 @@ margin-right: 2%;
    font-family: 'auroregular', Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
   padding-right: 10px;
   padding-left: 10px;
-  padding-top: 5px;
   text-align: center;
   font-size: 21px;
  }
@@ -1751,7 +1844,6 @@ margin-right: 2%;
   font-weight: bold;
 }
 .txtxt2{
-  padding: 1px 10px;
   font-family: 'auroregular', Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
   font-size: 17px;
   text-align: center;
@@ -1766,11 +1858,12 @@ margin-right: 2%;
   text-align: center;
 }
 .textovalores{
-  padding: 10% 8% 15% 8%;
-  font-family: 'auroregular', Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
-  color: #052D4B;
-  font-size: 20px;
-}
+   padding: 10% 8% 15% 8%;
+   font-family: 'auroregular', Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+   color: #052D4B;
+   font-size: 20px;
+ }
+
 .textovalores-cf{
   padding: 10% 8% 2% 8%;
 }
@@ -1784,8 +1877,9 @@ margin-right: 2%;
   margin: 5%;
 }
 .levalue{
-  width: 100%;
-}
+   width: 80%;
+   margin: 0% 10%;
+ }
 .img-cd{
   width: 40%;
   margin: 0% 30%;
@@ -1991,6 +2085,7 @@ height:fit-content;
 
 }
 @media (max-width: 890px) {
+
   .column{
     width: 50%;
     float: left;
@@ -2198,6 +2293,11 @@ height:fit-content;
     top: 20px;
     left: 0px;
   }
+  .column_equipo {
+    float: left;
+    width: 32%;
+    margin: 0.6%;
+  }
 }
 @media (max-width: 439.9px) and (min-width: 390px){
   .frase{
@@ -2218,6 +2318,11 @@ height:fit-content;
     position: relative;
     top: 350px;
     right: 20%;
+  }
+  .column_equipo {
+    float: left;
+    width: 49%;
+    margin: 0.5%;
   }
 
 }
@@ -2240,7 +2345,11 @@ height:fit-content;
     position: relative;
     top: 320px;
   }
-
+  .column_equipo {
+    float: left;
+    width: 92%;
+    margin: 4%;
+  }
 }
 
 .nav {
@@ -2429,6 +2538,19 @@ label {
        margin-left: 20px;
        margin-top: 8px;
    }
+  .textovalores{
+    padding: 7%;
+  }
+}
+@media only screen and (max-width: 900px) and (min-width: 660px){
+  .textovalores{
+    padding: 6%;
+  }
+}
+@media only screen and (max-width: 660px) and (min-width: 525px){
+  .textovalores{
+    padding: 5%;
+  }
 }
 @media only screen and (max-width: 900px) and (min-width: 525px){
 
@@ -2441,8 +2563,8 @@ label {
     width: 48%;
   }
   .valores{
-    width: 47%;
-    margin: 1.5%;
+    width: 45%;
+    margin: 2.5%;
   }
   .cardif{
     width: 47%;
@@ -2467,6 +2589,13 @@ label {
   }
   .fichasvalores{
     height: fit-content;
+  }
+  .textovalores{
+    padding: 3%;
+  }
+  .levalue{
+    width: 66%;
+    margin: 0% 17%;
   }
   .valores{
     width: 90%;
@@ -2641,6 +2770,7 @@ position: relative;
     width: 48.9%;
     margin: 0.5%;
   }
+
   .interior_obras:hover{
     transform: scale(1.5);
   }
@@ -2662,9 +2792,15 @@ position: relative;
     width: 99%;
     margin: 3% 0.4% 3% 0.4%;
   }
+
   .column_cf {
     float: left;
     width: 99%;
+    margin: 3% 0.4% 3% 0.4%;
+  }
+  .column_int {
+    float: left;
+    width: 32%;
     margin: 3% 0.4% 3% 0.4%;
   }
   .interior_obras:hover{
@@ -2696,6 +2832,11 @@ position: relative;
     float: left;
     width: 99%;
     margin: 0.4%;
+  }
+  .column_int {
+    float: left;
+    width: 99%;
+    margin: 3% 0.4% 3% 0.4%;
   }
   .interior_obras:hover{
     background-size: contain;!important;
@@ -2900,12 +3041,22 @@ position: relative;
     width: 40%;
     margin: 5% 5% 0% 5%;
   }
+  .column_un {
+    float: left;
+    width: 46%;
+    margin: 2% 2% 0% 2%;
+  }
 }
 @media (max-width: 575px){
   .tipos_obras{
     float: left;
     width: 85%;
     margin: 10% 7.5% 1% 7.5%;
+  }
+  .column_un {
+    float: left;
+    width: 90%;
+    margin: 5%;
   }
 }
 
