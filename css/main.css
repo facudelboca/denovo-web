@@ -679,8 +679,8 @@ margin: 4% 35% 26% 35%;
 }
 .column_int {
   float: left;
-  width: 19%;
-  margin: 0.5%;
+  width: 25%;
+  margin: 0.6% 0%;
 }
 /* Clear floats after image containers */
 .row::after {
@@ -1911,8 +1911,8 @@ margin-right: 2%;
    margin: 0% 10%;
  }
 .img-cd{
-  width: 40%;
-  margin: 0% 30%;
+  width: 35%;
+  margin: 0% 32.5%;
 }
 .lequipe2{
   width: 96%;
@@ -2944,7 +2944,8 @@ position: relative;
   border-style: hidden;
 }
 .imagenesplantas{
-  width: 100%;
+  width: 90%;
+  margin: 0% 5%;
   height: auto;
 }
 .imagenesequipo{
