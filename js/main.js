@@ -39,5 +39,31 @@
 
 })();
 
+document.addEventListener("DOMContentLoaded", function () {
+  const images = document.querySelectorAll(".carousel img");
+  let index = 1; // Imagen activa inicial
+
+  function updateCarousel() {
+    images.forEach((img, i) => {
+      img.classList.remove("active", "prev", "next");
+
+      if (i === index) {
+        img.classList.add("active");
+      } else if (i === (index - 1 + images.length) % images.length) {
+        img.classList.add("prev");
+      } else if (i === (index + 1) % images.length) {
+        img.classList.add("next");
+      }
+    });
+  }
+
+  function nextImage() {
+    index = (index + 1) % images.length;
+    updateCarousel();
+  }
+
+  setInterval(nextImage, 3000); // Cambia la imagen cada 3 segundos
+  updateCarousel();
+});
 
 
