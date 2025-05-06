@@ -531,8 +531,8 @@ header.masthead p {
 }
 .equipo_txt{
   margin: 0% 7%;
-  font-size: 17px;
-  line-height: 22px;
+  font-size: 14px;
+  line-height: 18px;
 }
 .wrap-texto{
   color: whitesmoke;
@@ -698,8 +698,12 @@ margin: 4% 35% 26% 35%;
 }
 .column_int {
   float: left;
-  width: 25%;
-  margin: 0.6% 0%;
+  width: 24%;
+  margin: 0.5% 0.5%;
+}
+.col-footer {
+  float: left;
+  width: 33.33%;
 }
 /* Clear floats after image containers */
 .row::after {
@@ -862,6 +866,7 @@ margin: 4% 35% 26% 35%;
   font-size: 16px;
   font-weight: 500;
   font-family: 'auroregular', Lato, Merriweather, 'Helvetica Neue', Arial, sans-serif;
+  text-align: center;
 }
 .cols-foot{
   width: 25%;
@@ -991,14 +996,13 @@ clip-path: polygon(
   border-radius: 50%;
 }
 .imgfoot{
- margin: 9% 10% 5% 10%;
+ margin: 4% 20%;
   max-width: 60%;
 }
 .letraa{
   font-size: 19px;
-  width: 85%;
+  width: 100%;
   text-align: center;
-  margin-left: 12%;
   font-family: 'auroregular', Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 500;
 }
@@ -1170,7 +1174,7 @@ animation-timing-function: ease-in-out;
   font-family: 'auroregular', Lato;
 }
 .dub{
-  margin: 1% 8% 1% 2%;
+  margin: 3% 8% 1% 2%;
   width: 50%;
 }
 .contac{
@@ -1271,6 +1275,28 @@ animation-timing-function: ease-in-out;
   font-family: 'auroregular', Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
   text-align: center;
   background-color: #685C57;
+  color: #e8e8e8;
+}
+.barrita-footer{
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 500;
+  padding: 1%;
+  width: 100%;
+  font-family: 'auroregular', Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  text-align: center;
+  background-color: #052D4B;
+  color: #e8e8e8;
+}
+.barrita-footer-cf{
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 500;
+  padding: 1%;
+  width: 100%;
+  font-family: 'auroregular', Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  text-align: center;
+  background-color: #947362;
   color: #e8e8e8;
 }
 .headings-cf{
@@ -1509,11 +1535,10 @@ position: relative;
 
 }
 .lista{
-    text-align: left;
-    margin-top: 15%;
-  padding-left: 15%;
+  text-align: left;
+  width: 100%;
+  padding: 0%;
   font-family: 'auroregular', Lato;
-  width: 120%;
 }
 .listaobras{
   text-align: center;
@@ -1783,7 +1808,7 @@ margin-right: 2%;
 .contenedor{
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 80vh;
   overflow: hidden;
   background: #e8e8e8;
 }
@@ -1818,11 +1843,12 @@ margin-right: 2%;
 }
 .txt-carousel{
   position: relative;
-  top: 50%;
+  top: 57%;
   transform: translate(0, -50%);
   text-align: center;
   font-family: Ubuntu;
   font-size: 40px;
+  line-height: 36px;
   font-weight: 400;
   letter-spacing: -0.05em;
   color: #e8e8e8;
@@ -2010,7 +2036,7 @@ margin-right: 2%;
   color: #052D4B;
   padding: 5px 10px 5px 10px;
   font-family: 'auroregular', Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
-  font-size: 28px;
+  font-size: 25px;
   font-style: italic;
   text-align: center;
 }
@@ -2237,7 +2263,7 @@ height:fit-content;
     width: 50%;
   }
   .imich{
-    width: 96%;
+    width: 86%;
   }
 
 }
@@ -2531,7 +2557,6 @@ height:fit-content;
 .menu {
   margin: 0 30px 0 0;
   font-family: 'auroregular', Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
-  font-weight: 700;
   text-align:right;
     text-transform: capitalize;
   width: 100%;
@@ -3196,7 +3221,7 @@ position: relative;
     left: 17%;
   }
   .lista{
-    width: 90%;
+    width: 95%;
   }
   .logo-ie{
     width: 70%;
@@ -3207,7 +3232,7 @@ position: relative;
 
 @media (max-width: 950px) and (min-width: 576px){
   .lista{
-    width: 80%;
+    width: 90%;
   }
 }
 
