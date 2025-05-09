@@ -648,7 +648,7 @@ position: relative;
 }
 .logo-ie{
   width: 30%;
-margin: 4% 35% 26% 35%;
+margin: 4% 35% 15% 35%;
 }
 .columnconsbig{
   width: 33.3%;
@@ -661,7 +661,7 @@ margin: 4% 35% 26% 35%;
   display: block;
 }
 .imagenes-cf{
-  height: 350px;
+  height: 430px;
   display: block;
 }
 .consdescas{
@@ -785,7 +785,7 @@ margin: 4% 35% 26% 35%;
 }
 .interior_obras_cf{
   background-size: cover;
-  height: 350px;
+  height: 430px;
   color: black;
   z-index: -1;
   transition: all .2s ease-in-out;
@@ -1808,7 +1808,7 @@ margin-right: 2%;
 .contenedor{
   position: relative;
   width: 100%;
-  height: 80vh;
+  height: 700px;
   overflow: hidden;
   background: #e8e8e8;
 }
@@ -1816,7 +1816,7 @@ margin-right: 2%;
   position: absolute;
   top: 1vh;
   width: 100vw;
-  height: 100vh;
+  height: 700px;
   overflow: hidden;
   perspective: 200px;
   perspective-origin: 50% 100%;
@@ -1829,7 +1829,7 @@ margin-right: 2%;
   height: 450px;
   overflow: hidden;
   transform: translate3d(-50%, -50%, 0);
-  background: black;
+  background: #e8e8e8;
 }
 
 .copy{
@@ -1862,10 +1862,10 @@ margin-right: 2%;
         height: 400px;
     }
     .contenedor{
-        height: 80vh;
+        height: 500px;
     }
     .slider{
-        height: 80vh;
+        height: 500px;
     }
 }
 @media (max-width: 1400px) and (min-width: 1000px){
@@ -1873,10 +1873,10 @@ margin-right: 2%;
     height: 350px;
   }
   .contenedor{
-    height: 60vh;
+    height: 440px;
   }
   .slider{
-    height: 60vh;
+    height: 440px;
   }
 }
 @media (max-width: 1000px) and (min-width: 750px){
@@ -1884,10 +1884,10 @@ margin-right: 2%;
     height: 270px;
   }
   .contenedor{
-    height: 40vh;
+    height: 350px;
   }
   .slider{
-    height: 40vh;
+    height: 350px;
   }
 }
 @media (max-width: 750px) and (min-width: 575px){
@@ -1895,10 +1895,10 @@ margin-right: 2%;
     height: 200px;
   }
   .contenedor{
-    height: 35vh;
+    height: 300px;
   }
   .slider{
-    height: 35vh;
+    height: 300px;
   }
 }
 @media (max-width: 575px) and (min-width: 430px){
@@ -1906,10 +1906,10 @@ margin-right: 2%;
     height: 150px;
   }
   .contenedor{
-    height: 30vh;
+    height: 230px;
   }
   .slider{
-    height: 30vh;
+    height: 230px;
   }
 }
 @media (max-width: 430px){
@@ -1917,10 +1917,10 @@ margin-right: 2%;
     height: 110px;
   }
   .contenedor{
-    height: 20vh;
+    height: 200px;
   }
   .slider{
-    height: 20vh;
+    height: 200px;
   }
 }
 
@@ -2733,6 +2733,12 @@ label {
     align-items: center;
     justify-content: center;
   }
+  .imagenes-cf{
+    height: 350px;
+  }
+  .interior_obras_cf{
+    height: 350px;
+  }
 }
 @media only screen and (min-width: 900px) and (max-width: 1120px){
    #holo{
@@ -3155,6 +3161,18 @@ position: relative;
   left: 60%;
 }
 
+@media (max-width: 1800px) and (min-width: 1550px) {
+  .logo-ie{
+    width: 30%;
+    margin: 4% 35% 20% 35%;
+  }
+}
+@media (max-width: 1550px) and (min-width: 1170px) {
+  .logo-ie{
+    width: 30%;
+    margin: 4% 35% 24% 35%;
+  }
+}
 
 @media (max-width: 1170px) and (min-width: 850px) {
   .letra_qr{
