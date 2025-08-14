@@ -24,9 +24,9 @@
 
     <!-- Plugin CSS -->
     <script src="js/main.js"></script>
+    <script src="js/carousel.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/CustomEase.min.js"></script>
-    <script src="js/carousel.js"></script>
     <!-- Custom styles for this template -->
     <link href="css/main.css" rel="stylesheet">
 
@@ -42,7 +42,7 @@
 
   </head>
   <id="page-top">
- 
+
   <!-- Navigation -->
   <div class="nav">
     <label for="toggle"><div style="height: 100%"><img src="./img/logo.logo1.png" class="photin">&#9776;</div></label>
@@ -86,42 +86,32 @@
     </div>
   </section>
 
-  <section style="padding-top: 20px; padding-bottom: 3rem">
-    <div class="headings" style="padding-top: 10px; background-color: #e8e8e8"><b>¿Qué hacemos?</b></div>
+  <section>
+    <div class="headings" style="padding-top: 10px; padding-bottom: 20px;background-color: #e8e8e8"><b>¿Qué hacemos?</b></div>
+    <div class="my-carousel">
+      <div class="my-carousel-track">
+        <a href="casas.html" class="my-carousel-slide active">
+          <img src="./img/foto_casas.JPG" alt="Imagen 1">
+          <div class="my-carousel-overlay"></div>
+          <div class="my-carousel-text">de novo<br>casas</div>
+        </a>
 
-    <div class="contenedor">
-      <div class="slider">
-        <div class="card">
-          <img src="./img/casas-negro.jpg"/>
-          <a href="casas.html">
-            <div class="copy">
-              <p class="txt-carousel">
-                de novo<br>
-                casas</p>
-            </div>
-          </a>
-        </div>
-        <div class="card casas">
-          <img src="./img/desarrollos-negro.jpg"/>
-          <a href="CasaFlex.html">
-            <div class="copy">
-              <p class="txt-carousel">
-                de novo<br>
-                desarrollos</p>
-            </div>
-          </a>
-        </div>
-        <div class="card">
-          <img src="./img/constructora-negro.jpg"/>
-          <a href="constructora.html">
-            <div class="copy">
-              <p class="txt-carousel">
-                de novo<br>
-                constructora</p>
-            </div>
-          </a>
-        </div>
+        <a href="CasaFlex.html" class="my-carousel-slide">
+          <img src="./img/desarrollos-UN.jpg" alt="Imagen 2">
+          <div class="my-carousel-overlay"></div>
+          <div class="my-carousel-text">de novo<br>desarrollos</div>
+        </a>
+
+        <a href="constructora.html" class="my-carousel-slide">
+          <img src="./img/constructora-pilar5-min.JPG" alt="Imagen 3">
+          <div class="my-carousel-overlay"></div>
+          <div class="my-carousel-text">de novo<br>constructora</div>
+        </a>
       </div>
+
+      <!-- Controles -->
+      <button class="my-carousel-btn prev">&#10094;</button>
+      <button class="my-carousel-btn next">&#10095;</button>
     </div>
 
 
@@ -148,9 +138,9 @@
       </a>
     </div>
   </div>
-    <div class="center-button" style=" color: #052D4B;">
-      <a href="Brochure-DeNovo.pdf" target="_blank" style="padding: 1% 1%; margin: 1%" class="btn btn-primary" role="button">Brochure</a>
-    </div>
+  <div class="center-button" style=" color: #052D4B;">
+    <a href="Brochure-DeNovo.pdf" target="_blank" style="padding: 1% 1%; margin: 1%" class="btn btn-primary" role="button">Brochure</a>
+  </div>
   </section>
 
 

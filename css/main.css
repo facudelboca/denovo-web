@@ -262,6 +262,83 @@ header.masthead p {
   transition: all 0.2s;
 }
 
+.my-carousel {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.my-carousel-track {
+  display: flex;
+  transition: transform 0.6s ease-in-out;
+}
+
+.my-carousel-slide {
+  position: relative;
+  min-width: 100%;
+  text-decoration: none; /* sin subrayado */
+  color: inherit; /* usa el color del texto definido */
+}
+
+.my-carousel-slide img {
+  width: 100%;
+  display: block;
+}
+
+.my-carousel-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.my-carousel-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Ubuntu;
+  font-size: 40px;
+  line-height: 36px;
+  font-weight: 400;
+  letter-spacing: -0.05em;
+  color: #e8e8e8;
+  text-align: center;
+  z-index: 2;
+  pointer-events: none; /* evita que bloquee el click en el enlace */
+}
+
+.my-carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 24px;
+  z-index: 10;
+}
+
+.my-carousel-btn.prev {
+  left: 10px;
+}
+
+.my-carousel-btn.next {
+  right: 10px;
+}
+
+.my-carousel-btn:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+
+
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
   position: absolute;
   top: 50%;
