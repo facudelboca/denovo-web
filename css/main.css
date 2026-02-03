@@ -265,14 +265,14 @@ header.masthead p {
 .my-carousel {
   position: relative;
   width: 100%;
-  max-width: 900px;
+  max-width: 660px;
   margin: auto;
   overflow: hidden;
 }
 
 .my-carousel-track {
   display: flex;
-  transition: transform 0.6s ease-in-out;
+  transition: transform 1s ease-in-out;
 }
 
 .my-carousel-slide {
@@ -471,7 +471,7 @@ header.masthead p {
   color: #052D4B;
   font-family: 'auroregular',Lato, Merriweather, 'Helvetica Neue', Arial, sans-serif;
   text-align: center;
-  font-size: 19px;
+  font-size: 20px;
   background-color: #052D4B;
 }
 .juju3{
@@ -606,11 +606,26 @@ header.masthead p {
   font-size: 18px;
   line-height: 22px;
 }
+.equipo_profesion{
+  margin: 0% 7%;
+  font-size: 16px;
+  line-height: 20px;
+}
 .equipo_txt{
   margin: 0% 7%;
   font-size: 14px;
   line-height: 18px;
 }
+.obras-item{
+  width: 80%;
+  margin: 1% 10%;
+}
+.obras-item-image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .wrap-texto{
   color: whitesmoke;
   text-align: center;
@@ -683,7 +698,7 @@ header.masthead p {
 }
 .wrap-car-equipo{
   width: 100%;
-  height: 350px;
+  height: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -753,10 +768,28 @@ margin: 4% 35% 15% 35%;
   width: 31.7%;
   margin: 0.7%;
 }
+/* Centrar filas incompletas de obras (ej: cuando hay menos de 3) */
+.row:has(.column_obrase) {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.row:has(.column_obrase)::after {
+  display: none;
+}
 .column_equipo {
   float: left;
-  width: 23.7%;
+  width: 32%;
   margin: 0.6%;
+}
+/* Centrar filas incompletas del equipo (ej: cuando hay 2 en lugar de 3) */
+.row:has(.column_equipo) {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.row:has(.column_equipo)::after {
+  display: none;
 }
 .column_un {
   float: left;
@@ -777,6 +810,29 @@ margin: 4% 35% 15% 35%;
   float: left;
   width: 24%;
   margin: 0.5% 0.5%;
+}
+.column_int_2 {
+  float: left;
+  width: 32%;
+  margin: 0.5% 0.6%;
+}
+/* Centrar filas incompletas de obras (ej: cuando hay menos de 3) */
+.row:has(.column_int) {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.row:has(.column_int)::after {
+  display: none;
+}
+/* Centrar filas incompletas de obras (ej: cuando hay menos de 3) */
+.row:has(.column_int_2) {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.row:has(.column_int_2)::after {
+  display: none;
 }
 .col-footer {
   float: left;
@@ -904,29 +960,25 @@ margin: 4% 35% 15% 35%;
 }
 .interior_obrasesp:hover{
   background-size: contain;!important;
-  transform: scale(1.5);
-  width: 160%;
-  position: relative;
-  right: 24%;
+  transform: scale(1.4);
+
   z-index: 99;
 }
 .interior_obras:hover{
   background-size: contain;!important;
-  transform: scale(1.7);
+  transform: scale(1.4);
   z-index: 99;
 }
 .interior_obras_cf:hover{
   background-size: contain;!important;
-  transform: scale(1.7);
+  transform: scale(1.3);
   z-index: 99;
 }
 .izquierda:hover{
-  position: relative;
-  left: 22%;
+  
 }
 .derecha:hover{
-  position: relative;
-  right: 22%;
+  
 }
 /* Style the back side */
 .flip-box-back {
@@ -968,7 +1020,7 @@ margin: 4% 35% 15% 35%;
 }
 .imich{
   align-content: center;
-  width: 40%;
+  width: 33%;
   padding-top: 10px;
 }
 .leblanc{
@@ -1306,25 +1358,22 @@ animation-timing-function: ease-in-out;
   color: #052D4B;
 }
 .txt2{
-  font-size: 19px;
-  text-align: justify;
-  margin-left: 1.5%;
-  margin-right: 2.5%;
+  font-size: 20px;
+  text-align: center;
+  margin: 3% 0% 0% 0%;
   width: 96%;
-  position: relative;
-  top: 15%;
   font-family: 'auroregular', Lato;
   color: #052D4B;
 }
 .txt5{
-  font-size: 18px;
+  font-size: 20px;
   text-align: center;
   padding: 2% 7% 1% 7%;
-  font-family: 'auroregular', Lato;
+  font-family: 'auroregular', Lato, 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
   color: #052D4B;
 }
 .txt-cf{
-  font-size: 19px;
+  font-size: 20px;
   text-align: center;
   margin-left: 1.5%;
   margin-right: 2.5%;
@@ -2805,7 +2854,7 @@ label {
 @media only screen and (max-width: 1600px) {
   .wrap-car-equipo {
     width: 100%;
-    height: 300px;
+    height: 350px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -3086,7 +3135,12 @@ position: relative;
   .column_int {
     float: left;
     width: 32%;
-    margin: 3% 0.4% 3% 0.4%;
+    margin: 1% 0.6%;
+  }
+  .column_int_2 {
+    float: left;
+    width: 47%;
+    margin: 2% 1.5% ;
   }
   .interior_obras:hover{
     background-size: contain;!important;
@@ -3119,6 +3173,11 @@ position: relative;
     margin: 0.4%;
   }
   .column_int {
+    float: left;
+    width: 99%;
+    margin: 3% 0.4% 3% 0.4%;
+  }
+  .column_int_2 {
     float: left;
     width: 99%;
     margin: 3% 0.4% 3% 0.4%;
