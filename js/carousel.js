@@ -25,5 +25,5 @@ document.addEventListener("DOMContentLoaded", () => {
     setInterval(() => {
         myCurrentIndex = (myCurrentIndex + 1) % myTotalSlides;
         myShowSlide(myCurrentIndex);
-    }, 3000);
+    }, 5000);
 });
