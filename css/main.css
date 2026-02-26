@@ -1026,7 +1026,7 @@ margin: 4% 35% 15% 35%;
 }
 .imich{
   display: block;
-  width: 100%;
+  width: 33%;
   margin: 0 auto;
   padding-top: 10px;
 }
@@ -2394,7 +2394,7 @@ height:fit-content;
     width: 50%;
   }
   .imich{
-    width: 100%;
+    width: 86%;
     margin: 0 auto;
   }
 
