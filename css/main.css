@@ -1025,8 +1025,9 @@ margin: 4% 35% 15% 35%;
   height: 100px;
 }
 .imich{
-  align-content: center;
-  width: 33%;
+  display: block;
+  width: 100%;
+  margin: 0 auto;
   padding-top: 10px;
 }
 .leblanc{
@@ -2393,7 +2394,8 @@ height:fit-content;
     width: 50%;
   }
   .imich{
-    width: 86%;
+    width: 100%;
+    margin: 0 auto;
   }
 
 }
