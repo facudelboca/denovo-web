@@ -341,7 +341,6 @@ header.masthead p {
 }
 
 
-
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
   position: absolute;
   top: 50%;
@@ -982,10 +981,10 @@ margin: 4% 35% 15% 35%;
   z-index: 99;
 }
 .izquierda:hover{
-  
+
 }
 .derecha:hover{
-  
+
 }
 /* Style the back side */
 .flip-box-back {
@@ -1190,7 +1189,6 @@ animation-timing-function: ease-in-out;
   100% { transform: translateX(0%); }
 
 }
-
 
 
 .footfooter{
@@ -1619,7 +1617,6 @@ position: relative;
   color: #aaa;
   margin-right: 5px;
 }
-
 
 
 /*media queries for small devices*/
@@ -2057,7 +2054,6 @@ margin-right: 2%;
     height: 200px;
   }
 }
-
 
 
 @charset "utf-8";
@@ -2704,7 +2700,6 @@ height:fit-content;
     font-size: 18px;
 font-family: Inter, Lato, 'Helvetica Neue', Arial, sans-serif;
 }
-
 
 
 label {
@@ -3497,3 +3492,11 @@ position: relative;
     margin: 3% 20% 5% 20%;
   }
 }
+
+/* styling added to help Cumulative Layout Shift and ensure img responsiveness */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
