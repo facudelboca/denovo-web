@@ -3163,6 +3163,18 @@ position: relative;
   }
 }
 @media (max-width: 707px) and (min-width: 400px){
+  .imagenes-cf {
+    height: 280px;
+  }
+  .interior_obras_cf {
+    height: 280px;
+  }
+  .imagenes-tri {
+    height: 240px;
+  }
+  .interior_obras_tri {
+    height: 240px;
+  }
   .column_obrase {
     float: left;
     width: 99%;
@@ -3214,6 +3226,12 @@ position: relative;
   }
 }
 @media (max-width: 400px){
+  .imagenes-cf {
+    height: 220px;
+  }
+  .imagenes-tri {
+    height: 180px;
+  }
   .column_obrase {
     float: left;
     width: 99%;
@@ -3271,14 +3289,14 @@ position: relative;
   }
   .interior_obras_cf{
     background-size: cover;
-    height: 320px;
+    height: 220px;
     color: black;
     z-index: -1;
     transition: all .2s ease-in-out;
   }
   .interior_obras_tri{
     background-size: cover;
-    height: 270px;
+    height: 180px;
     color: black;
     z-index: -1;
     transition: all .2s ease-in-out;
