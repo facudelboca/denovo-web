@@ -686,6 +686,9 @@ header.masthead p {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
 }
 .wrap-car-un{
   width: 100%;
@@ -762,6 +765,10 @@ margin: 4% 35% 15% 35%;
   height: 430px;
   display: block;
 }
+.imagenes-tri{
+  height: 360px;
+  display: block;
+}
 .consdescas{
   width: 33.3%;
   display: block;
@@ -811,6 +818,11 @@ margin: 4% 35% 15% 35%;
   float: left;
   width: 45%;
   margin: 2.5%;
+}
+.column_tri {
+  float: left;
+  width: 47%;
+  margin: 1.5%;
 }
 .column_int {
   float: left;
@@ -923,8 +935,19 @@ margin: 4% 35% 15% 35%;
   transition: all .2s ease-in-out;
 }
 .interior_obras_cf{
-  background-size: cover;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
   height: 430px;
+  color: black;
+  z-index: -1;
+  transition: all .2s ease-in-out;
+}
+.interior_obras_tri{
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  height: 360px;
   color: black;
   z-index: -1;
   transition: all .2s ease-in-out;
@@ -976,6 +999,11 @@ margin: 4% 35% 15% 35%;
   z-index: 99;
 }
 .interior_obras_cf:hover{
+  background-size: contain;!important;
+  transform: scale(1.3);
+  z-index: 99;
+}
+.interior_obras_tri:hover{
   background-size: contain;!important;
   transform: scale(1.3);
   z-index: 99;
@@ -2870,6 +2898,12 @@ label {
   .interior_obras_cf{
     height: 350px;
   }
+  .imagenes-tri{
+    height: 300px;
+  }
+  .interior_obras_tri{
+    height: 300px;
+  }
 }
 @media only screen and (min-width: 900px) and (max-width: 1120px){
    #holo{
@@ -3116,6 +3150,9 @@ position: relative;
   .interior_obras_cf:hover{
     transform: scale(1.5);
   }
+  .interior_obras_tri:hover{
+    transform: scale(1.5);
+  }
   .izquierda:hover{
     position: relative;
     left: 0%;
@@ -3133,6 +3170,11 @@ position: relative;
   }
 
   .column_cf {
+    float: left;
+    width: 99%;
+    margin: 3% 0.4% 3% 0.4%;
+  }
+  .column_tri {
     float: left;
     width: 99%;
     margin: 3% 0.4% 3% 0.4%;
@@ -3157,6 +3199,11 @@ position: relative;
     transform: scale(1.3);
     z-index: 99;
   }
+  .interior_obras_tri:hover{
+    background-size: contain;!important;
+    transform: scale(1.3);
+    z-index: 99;
+  }
   .izquierda:hover{
     position: relative;
     left: 0%;
@@ -3173,6 +3220,11 @@ position: relative;
     margin: 0.4%;
   }
   .column_cf {
+    float: left;
+    width: 99%;
+    margin: 0.4%;
+  }
+    .column_tri {
     float: left;
     width: 99%;
     margin: 0.4%;
@@ -3197,6 +3249,11 @@ position: relative;
     transform: scale(1.1);
     z-index: 99;
   }
+  .interior_obras_tri:hover{
+    background-size: contain;!important;
+    transform: scale(1.1);
+    z-index: 99;
+  }
   .izquierda:hover{
     position: relative;
     left: 0%;
@@ -3215,6 +3272,13 @@ position: relative;
   .interior_obras_cf{
     background-size: cover;
     height: 320px;
+    color: black;
+    z-index: -1;
+    transition: all .2s ease-in-out;
+  }
+  .interior_obras_tri{
+    background-size: cover;
+    height: 270px;
     color: black;
     z-index: -1;
     transition: all .2s ease-in-out;
